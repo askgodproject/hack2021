@@ -1,9 +1,8 @@
 from os.path import realpath
 from random import randint
 import Utils
-from DBPManager import DBPManager
 from Passage import Passage, passageKey
-from filters import PeopleFilter
+from filters import PlacesFilter, PeopleFilter, ActionsFilter
 
 question_contexts_full = Utils.readJson(Utils.datasetsPath(realpath(__file__), "Contexts.json", "hack2021"))
 scripture_contexts_full = Utils.readJson(Utils.datasetsPath(realpath(__file__), "Scriptures.json", "hack2021"))
@@ -42,16 +41,22 @@ def selectQuestion(question_contexts, index = -1):
 # ----------
 
 # First, get a question
-question_context = selectQuestion(question_contexts)
+question_context = selectQuestion(question_contexts, 7)
 print("Question is: " + question_context["question-text"])
 
+# Define the filters we'll use
 filters = []
 filters.append(PeopleFilter(scripture_contexts, scripture_score_map))
+filters.append(PlacesFilter(scripture_contexts, scripture_score_map))
+filters.append(ActionsFilter(scripture_contexts, scripture_score_map))
+
+# Go through each filter, which will adjust the scores of the passages in the map
 for filter in filters:
     filter.process(question_context)
+    scriptures = sorted(scripture_score_map.values(), key=passageKey, reverse=True)
 
-# Determine which verses have the highest scores
-# Sort verses in 'current_scripture_contexts' in descending order based on the "score" member
+# Now determine which verses have the highest scores
+# Sort verses in 'scripture_score_map' in descending order based on the "score" member
 scriptures = sorted(scripture_score_map.values(), key=passageKey, reverse=True)
 scripture_to_show = scriptures[0]
 
