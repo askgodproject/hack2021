@@ -2,7 +2,7 @@ from os.path import realpath
 from random import randint
 import Utils
 from Passage import Passage, passageKey
-from filters import PlacesFilter, PeopleFilter, ActionsFilter
+from filters import *
 
 question_contexts_full = Utils.readJson(Utils.datasetsPath(realpath(__file__), "Contexts.json", "hack2021"))
 scripture_contexts_full = Utils.readJson(Utils.datasetsPath(realpath(__file__), "Scriptures.json", "hack2021"))
@@ -13,6 +13,7 @@ for scripture_context in scripture_contexts:
     passage_text = scripture_context["passage"]
     scripture_score_map[passage_text] = Passage(passage_text)
 
+# TODO Define situation table for the SituationFilter
 # situation_table = {
 #     "In conflict with others": {
 #         "feeling": [],
@@ -20,7 +21,6 @@ for scripture_context in scripture_contexts:
 #         "dilema": ""
 #     },
 #     "Betrayed by a friend" : {
-
 #     }
 # }
 
@@ -41,7 +41,7 @@ def selectQuestion(question_contexts, index = -1):
 # ----------
 
 # First, get a question
-question_context = selectQuestion(question_contexts, 7)
+question_context = selectQuestion(question_contexts)
 print("Question is: " + question_context["question-text"])
 
 # Define the filters we'll use
@@ -49,6 +49,7 @@ filters = []
 filters.append(PeopleFilter(scripture_contexts, scripture_score_map))
 filters.append(PlacesFilter(scripture_contexts, scripture_score_map))
 filters.append(ActionsFilter(scripture_contexts, scripture_score_map))
+filters.append(ScriptureSectionFilter(scripture_contexts, scripture_score_map))
 
 # Go through each filter, which will adjust the scores of the passages in the map
 for filter in filters:
@@ -58,6 +59,12 @@ for filter in filters:
 # Now determine which verses have the highest scores
 # Sort verses in 'scripture_score_map' in descending order based on the "score" member
 scriptures = sorted(scripture_score_map.values(), key=passageKey, reverse=True)
+topThreePassagesStr = ""
+for i in range(0, 3):
+    passage = scriptures[i]
+    topThreePassagesStr += passage.reference + " (" + str(passage.score) + ")"
+    topThreePassagesStr += "\n" if i < 2 else "" 
+print("Top three results:\n" + topThreePassagesStr)
 scripture_to_show = scriptures[0]
 
 print("Answer is: " + scripture_to_show.reference + " - " + scripture_to_show.text())
