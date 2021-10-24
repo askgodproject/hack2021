@@ -19,6 +19,7 @@
 
 {
     "passage" : string,
+    "score": integer,
     "scripture-section" : OT | NT | Both,
     "applies-to" : {
         "general" : [ "believer" | "unbeliever" | "the devil" | "animals" | "seeker" | "opponent of the Gospel" ],
