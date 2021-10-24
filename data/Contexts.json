@@ -44,7 +44,7 @@
                 "confusion"
             ],
             "preconceptions": [
-                ""
+                "many ways to God"
             ],
             "people": ["Jesus"],
             "places": ["heaven"],
@@ -52,8 +52,8 @@
             "believer" : false,
             "question-type" : {
                 "type": "doctrine",
-                "subject": "salvation",
-                "action": ""
+                "subject": [ "salvation", "heaven", "afterlife", "eternal life" ],
+                "action": [ "Jesus the way", "Jesus only way", "way to", "acceptance" ]
             },
             "verse-in-the-question" : ""
         },
@@ -80,7 +80,7 @@
             "question-type" : {
                 "type": "clarification",
                 "subject": "homosexuality",
-                "action": [ "sinful", "wrong" ]
+                "action": [ "Jesus taught", "Jesus teaching" ]
             },
             "verse-in-the-question" : ""
         },
@@ -88,8 +88,7 @@
             "question-text": "Is Jesus in the Old Testament?",
             "signficant-words": [
                 "Jesus",
-                "Old",
-                "Testament"
+                "Old Testament"
             ],
             "decision-words": [],
             "scripture-section" : "OT",
@@ -104,7 +103,7 @@
             "question-type" : {
                 "type": "clarification",
                 "subject": "Jesus",
-                "action": []
+                "action": [ "in OT", "lived in OT", "OT speaks of" ]
             },
             "verse-in-the-question" : ""
         },
