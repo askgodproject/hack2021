@@ -1,0 +1,33 @@
+"context": {
+    "question-text": "Does the Bible say it is a sin to cry?",
+    "signficant-words": [
+        "Bible",
+        "sin",
+        "cry"
+    ],
+    "decision words": [],
+    "scripture-section" : Both,
+    "emotions": [
+        "confusion"
+    ],
+    "preconceptions": [
+        "legalistic",
+        "not meaningful"
+    ],
+    "people": [],
+    "places": [],
+    "actions": [
+        "say",
+        "cry"
+    ],
+    "believer" : false,
+    "question-type" : {
+        "type": "clarification",
+        "subject": "crying",
+        "action": [ "sinful", "wrong" ]
+    },
+    "verse-in-the-question" : "",
+}
+
+// In this case, the person had heard that the Bible said this, 
+// and they thought the Bible had dumb rules, but wanted clarification if it was true

@@ -1,0 +1,75 @@
+{
+    "scripture-section": {
+        "OT" : {
+
+        },
+        "NT" : {
+
+        }
+    }
+}
+{
+    { // Particular entry
+        "passage" : string,
+        ...
+        "scripture-section" : "OT",
+        ...
+    }
+}
+
+{
+    "passage" : string,
+    "scripture-section" : OT | NT | Both,
+    "applies-to" : {
+        "general" : [ "believer" | "unbeliever" | "the devil" | "animals" | "seeker" | "opponent of the Gospel" ],
+        "family-relation" :[ "father" | "mother" | "child" ],
+        "occupation" : [ "employee" | "employer" | "slave" | "master" | "student" | "teachers" ]
+    },
+    "questions" : [
+        "What is...",
+        "Why does..."
+    ],
+    "question-types" : [
+        {
+            "type": string,
+            "subject": string,
+            "action": string
+        },
+    ],
+    "lesson" : {
+        "situation": "sadness",
+        "godly-response": [
+            {
+                "response": "express emotion",
+                "verses": []
+            }
+            "God cares",
+            "Jesus shows emotion",
+            "Godly people were sad",
+            "it is temporary"
+        ],
+        "wordly-response": [
+            "hide it inside",
+            "isolate yourself",
+            "God doesn't want to see our emotions",
+            "self-medicate with pleasures"
+        ],
+        "believer": yes | no | both
+    }
+}
+
+// Might be hard to get this granular
+"Sadness"
+- "Confused about showing sadness"
+- "Anger in distress"
+- "Sad at lost opportunity"
+- "Sad because of rejection"
+- 
+
+
+Suggestions:
+- Determine who the audience is
+- Select small number of questions and verses and fill out that data
+- Match between small dataset to show proof of concept
+
+Text Analytics

@@ -1,0 +1,39 @@
+"context": {
+    "question-text": "Did Jesus really rise from the dead on a Sunday?",
+    "signficant-words": [
+        "Jesus", Messiah, SonOfGod
+        "rise", Resurrection, Miracles
+        "dead", LifeAndDeath, 
+        "Sunday": DayOfWeek, Calendar, Time, Weekend, DayOfRest, Sabbath
+    ],
+    "decision words": [
+        "my",
+        "our"
+    ],
+    "scripture-section" : OT | NT,
+    "emotions":
+    "people":
+    "places":,
+    "actions": [
+        <verbs> (i.e. "rise")
+    ],
+    "believer" : boolean,
+    "question-type" :[ apologetically, moral, factual, scientific ],
+    "verse-in-the-question" :
+}
+
+Obedience / Following God's Commandments
+"Do we really have to obey everything in the Bible?"
+"Why are my parents so unreasonable?"
+
+"Why is it important to follow Jesus' teachings?"
+"What do I have to do to follow Jesus' commands?"
+
+"What does John 3:16 say about eternal life?"
+
+Rising from the dead
+"Do people really rise from the dead?" OT / NT
+"Did Elisha raise a boy to life?" - OT
+"Did Jesus raise Lazarus from the dead?" - NT
+"Will my pet dog be in Heaven?" - personal
+"What happens when we get resurrection bodies?"
