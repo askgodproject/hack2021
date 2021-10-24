@@ -1,3 +1,5 @@
+from Utils import *
+
 # -----
 # Base filter class, should not be instantiated directly
 # -----
@@ -198,7 +200,6 @@ class QuestionSimilarityFilter(Filter):
         # TODO Transform list of pairs into a vector of numerical data that can seed the similarity algorithm
         # TODO Seed the Pinecone algorithm with this data and save as a member variable
 
-# TODO
 # -----
 # Question Type Filter
 # Scores all passages which have a question type that matches to the question type of the given question
@@ -208,14 +209,40 @@ class QuestionTypeFilter(Filter):
         super().__init__(scripture_contexts, scripture_map)
 
     def process(self, question_context):
-        # TODO
-        # Go through all the passages and extract the "question-type" objects
-        # Then compare those to the given question. If they "match" then score that passage.
-        # Determining a "match" could mean they have the exact same values for the different members of a question type
-        # or it could mean they are close enough. For example, the entry "gay" and entry "homosexual" are probably close
-        # enough to match, at least for those elements.
+        # Go through all the passages and extract the "question-types" objects
+        # Then compare those to the given question's "question-type". They are the same kind of structure, but a question only has one
+        # and a verse may have several, so the latter is plural. If they "match" then score that passage.
+        # Determining a "match" can mean they have the exact same values for the different members of a question type
+        # or it could mean they are "close enough". Similar words are used
+        # TODO: Get this working for things like "gay" and "homosexual" getting a positive score
+        given_question_type = question_context["question-type"]
+        for scripture in self.scripture_contexts:
+            passage = self.scripture_map[scripture["passage"]]
+            scripture_question_types = scripture["question-types"]
+            # For each question type, see if it matches the one from the given question
+            for scripture_question_type in scripture_question_types:
+                match_score = self.match(given_question_type, scripture_question_type)
+                if match_score > 0:
+                    passage.score += match_score
+                    print(passage.reference + "(" + str(passage.score) + "): +" + str(match_score) + " because question types 'match': " + str(given_question_type) + " ~~ " + str(scripture_question_type))
 
         super().process(question_context)
+
+    def match(self, given_question_type, scripture_question_type):
+        match_score = 0
+        
+        # 1. Do the types match; these are a strict set of strings so can just directly compare
+        if given_question_type["type"] == scripture_question_type["type"]:
+            match_score += 1
+            print("Increment score (" + str(match_score) + ") because types are equal: " + given_question_type["type"])
+
+        # 2. Do any of the subjects match, also testing similar words
+        match_score += compareEntries(given_question_type["subject"], scripture_question_type["subject"], True, 0.5, 2, True)
+
+        # 3. Do any of the actions match, also testing similar words
+        match_score += compareEntries(given_question_type["action"], scripture_question_type["action"], True, 0.5, 2, True)
+
+        return match_score
 
 # TODO
 # -----

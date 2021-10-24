@@ -1,5 +1,6 @@
 from os.path import realpath
 from random import randint
+import nltk
 import Utils
 from Passage import Passage, passageKey
 from filters import *
@@ -40,6 +41,8 @@ def selectQuestion(question_contexts, index = -1):
 # Main Method
 # ----------
 
+nltk.download('wordnet')
+
 # First, get a question
 question_context = selectQuestion(question_contexts)
 print("Question is: " + question_context["question-text"])
@@ -50,6 +53,7 @@ filters.append(PeopleFilter(scripture_contexts, scripture_score_map))
 filters.append(PlacesFilter(scripture_contexts, scripture_score_map))
 filters.append(ActionsFilter(scripture_contexts, scripture_score_map))
 filters.append(ScriptureSectionFilter(scripture_contexts, scripture_score_map))
+filters.append(QuestionTypeFilter(scripture_contexts, scripture_score_map))
 
 # Go through each filter, which will adjust the scores of the passages in the map
 for filter in filters:

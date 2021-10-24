@@ -1,6 +1,7 @@
 from os.path import join
 from os.path import split
 import json
+from nltk.corpus import wordnet
 
 def pythonPath(sourcefile, root_dirname):
     # go up the directory tree until we get to the root directory of the repo
@@ -57,3 +58,45 @@ def writeJson(path, json_data):
     finally:
         if file_handle:
             file_handle.close()
+
+def compareLists(list1, list2, score_increment, log_matches):
+    match_score = 0
+    # See if any elements from list 1 are in list 2; converting to sets removes duplicates, and we don't care about ordering
+    for list1_element in set(list1):
+        for list2_element in set(list2):
+            if list1_element == list2_element:
+                match_score += score_increment
+                if log_matches:
+                    print("Increment score (" + str(match_score) + ") because " + list1_element + " == " + list2_element)
+
+    return match_score
+
+def compareEntries(entry1, entry2, use_similar_words, score_increment, score_max, log_matches):
+    match_score = 0
+
+    # Directly compare the lists (if it's just a string, make it a single element list)
+    entry1_list = [entry1] if type(entry1) == str else entry1
+    entry2_list = [entry2] if type(entry2) == str else entry2
+    match_score += compareLists(entry1_list, entry2_list, score_increment, log_matches)
+    
+    # Test with similar words if requested
+    if use_similar_words:
+        entry1_list_similar = []
+        for word in entry1_list:
+            synsets = wordnet.synsets(word)
+            for set in synsets:
+                entry1_list_similar.extend(set.lemma_names())
+        
+        entry2_list_similar = []
+        for word in entry2_list:
+            synsets = wordnet.synsets(word)
+            for set in synsets:
+                entry2_list_similar.extend(set.lemma_names())
+
+        match_score += compareLists(entry1_list_similar, entry2_list_similar, score_increment, log_matches)
+
+    # Return total matching score, reducing to max if needed
+    if match_score > score_max:
+        print("Score " + str(match_score) + " too large, reducing to " + str(score_max))
+        match_score = score_max
+    return match_score

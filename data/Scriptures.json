@@ -13,11 +13,13 @@
                 "Does the Bible say it is a sin to cry?",
                 "How do we deal with sorrow?"
             ],
-            "question-types": {
-                "type": "clarification",
-                "subject": "crying",
-                "action": ["sinful", "wrong"]
-            },
+            "question-types": [
+                {
+                    "type": "clarification",
+                    "subject": "crying",
+                    "action": ["sinful", "wrong"]
+                }
+            ],
             "people": ["God"],
             "places": ["throne", "heaven"],
             "actions": ["wipe every tear", "crying", "making everything new"],
@@ -51,11 +53,13 @@
                 "Did Jesus ever cry?",
                 "Did Jesus show emotion?"
             ],
-            "question-types": {
-                "type": "clarification",
-                "subject": "crying",
-                "action": ["sinful", "wrong", "Jesus"]
-            },
+            "question-types": [
+                {
+                    "type": "clarification",
+                    "subject": "crying",
+                    "action": ["sinful", "wrong", "Jesus"]
+                }
+            ],
             "people": ["Jesus", "Lord"],
             "places": [],
             "actions": ["wept"],
@@ -87,11 +91,13 @@
                 "Does the Bible say it is a sin to cry?",
                 "Did people in the Bible cry?"
             ],
-            "question-types": {
-                "type": "clarification",
-                "subject": "crying",
-                "action": ["sinful", "wrong", "Jesus"]
-            },
+            "question-types": [
+                {
+                    "type": "clarification",
+                    "subject": "crying",
+                    "action": ["sinful", "wrong", "Jesus"]
+                }
+            ],
             "people": ["Hannah"],
             "places": [],
             "actions": ["crying bitterly", "prayed"],
@@ -127,18 +133,20 @@
             "people": ["Jesus"],
             "places": [],
             "actions": ["come to the Father"],
-            "question-types": {
-                "type": "doctrine",
-                "subject": [
-                    "salvation",
-                    "eternal life"
-                ],
-                "action": [
-                    "way to",
-                    "acceptance",
-                    "Jesus only way"
-                ]
-            },
+            "question-types": [
+                {
+                    "type": "doctrine",
+                    "subject": [
+                        "salvation",
+                        "eternal life"
+                    ],
+                    "action": [
+                      "way to",
+                       "acceptance",
+                       "Jesus only way"
+                    ]
+                }
+            ],
             "lesson": {
                 "situation": ["Facing death", "Scared of dying"],
                 "godly-response": [
@@ -171,18 +179,20 @@
             "people": ["Jesus"],
             "places": ["under heaven"],
             "actions": ["saved"],
-            "question-types": {
-                "type": "doctrine",
-                "subject": [
-                    "salvation",
-                    "eternal life"
-                ],
-                "action": [
-                    "way to",
-                    "acceptance",
-                    "Jesus only way"
-                ]
-            },
+            "question-types": [
+                {
+                    "type": "doctrine",
+                    "subject": [
+                        "salvation",
+                        "eternal life"
+                    ],
+                    "action": [
+                        "way to",
+                        "acceptance",
+                        "Jesus only way"
+                    ]
+                }
+            ],
             "lesson": {
                 "situation": ["Scared of dying", "Wanting to be saved"],
                 "godly-response": [
@@ -213,18 +223,20 @@
             "people": ["God", "the world", "his only Son"],
             "places": [],
             "actions": ["loved", "gave", "believes", "perish", "have"],
-            "question-types": {
-                "type": "doctrine",
-                "subject": [
-                    "salvation",
-                    "eternal life"
-                ],
-                "action": [
-                    "way to",
-                    "acceptance",
-                    "Jesus only way"
-                ]
-            },
+            "question-types": [
+                {
+                    "type": "doctrine",
+                    "subject": [
+                        "salvation",
+                        "eternal life"
+                    ],
+                    "action": [
+                        "way to",
+                        "acceptance",
+                        "Jesus only way"
+                    ]
+                }
+            ],
             "lesson": {
                 "situation": ["Scared of dying", "Wanting to be saved"],
                 "godly-response": [
@@ -255,11 +267,13 @@
             "people": ["male", "woman"],
             "places": [],
             "actions": ["lie"],
-            "question-types": {
-                "type": "clarification",
-                "subject": "homosexuality",
-                "action": [ "sinful", "wrong" ]
-            },
+            "question-types": [
+                {
+                    "type": "clarification",
+                    "subject": "homosexuality",
+                    "action": [ "sinful", "wrong" ]
+                }
+            ],
             "lesson": {
                 "situation": [
                     "Sexual confusion", 
@@ -295,11 +309,13 @@
             "people": ["drunkards", "men", "idolaters", "Jesus"],
             "places": [],
             "actions": ["deceived", "swindle", "practice homosexuality", "sanctified", "justified"],
-            "question-types": {
-                "type": "clarification",
-                "subject": "homosexuality",
-                "action": [ "sinful", "wrong" ]
-            },
+            "question-types": [
+                {
+                    "type": "clarification",
+                    "subject": "homosexuality",
+                    "action": [ "sinful", "wrong" ]
+                }
+            ],
             "lesson": {
                 "situation": [
                     "Sexual confusion", 
@@ -334,11 +350,13 @@
             "people": ["men", "women"],
             "places": [],
             "actions": ["committing shameless acts", "exchanged natural relations"],
-            "question-types": {
-                "type": "clarification",
-                "subject": "homosexuality",
-                "action": [ "sinful", "wrong" ]
-            },
+            "question-types": [
+                {
+                    "type": "clarification",
+                    "subject": "homosexuality",
+                    "action": [ "sinful", "wrong" ]
+                }
+            ],
             "lesson": {
                 "situation": [
                     "Sexual confusion", 
@@ -372,11 +390,13 @@
             "people": ["son", "Jesus"],
             "places": [],
             "actions": ["born", "given"],
-            "question-type" : {
-                "type": "clarification",
-                "subject": "Jesus",
-                "action": ["in OT", "lived in OT"]
-            },
+            "question-types" : [
+                {
+                    "type": "clarification",
+                    "subject": "Jesus",
+                    "action": ["in OT", "lived in OT"]
+                }
+            ],
             "lesson": {
                 "situation": [
                     "Interested in prophecy",
@@ -410,11 +430,13 @@
             "people": ["Lord", "virgin", "Jesus"],
             "places": [],
             "actions": ["born", "give a sign", "conceive"],
-            "question-type" : {
-                "type": "clarification",
-                "subject": "Jesus",
-                "action": ["in OT", "lived in OT"]
-            },
+            "question-types" : [
+                {
+                    "type": "clarification",
+                    "subject": "Jesus",
+                    "action": ["in OT", "lived in OT"]
+                }
+            ],
             "lesson": {
                 "situation": [
                     "Interested in prophecy",
@@ -447,11 +469,13 @@
             "people": ["Jesus"],
             "places": ["Bethlehem Ephrathah", "Judah", "Israel"],
             "actions": ["coming forth"],
-            "question-type" : {
-                "type": "clarification",
-                "subject": "Jesus",
-                "action": ["in OT", "lived in OT"]
-            },
+            "question-types" : [
+                {
+                    "type": "clarification",
+                    "subject": "Jesus",
+                    "action": ["in OT", "lived in OT"]
+                }
+            ],
             "lesson": {
                 "situation": [
                     "Interested in prophecy",
@@ -485,11 +509,13 @@
             "people": ["God"],
             "places": [],
             "actions": ["abide", "ask"],
-            "question-type" : {
-                "type": "understanding",
-                "subject": "prayer",
-                "action": ["is"]
-            },
+            "question-types" : [
+                {
+                    "type": "understanding",
+                    "subject": "prayer",
+                    "action": ["is"]
+                }
+            ],
             "lesson": {
                 "situation": [
                     "Want to communicate with God",
@@ -524,11 +550,13 @@
             "people": ["God"],
             "places": [],
             "actions": ["abide", "ask"],
-            "question-type" : {
-                "type": "understanding",
-                "subject": "prayer",
-                "action": ["is"]
-            },
+            "question-types" : [
+                {
+                    "type": "understanding",
+                    "subject": "prayer",
+                    "action": ["is"]
+                }
+            ],
             "lesson": {
                 "situation": [
                     "Want to communicate with God",
@@ -562,11 +590,13 @@
             "people": ["God"],
             "places": [],
             "actions": ["abide", "ask"],
-            "question-type" : {
-                "type": "understanding",
-                "subject": "prayer",
-                "action": ["is"]
-            },
+            "question-types" : [
+                {
+                    "type": "understanding",
+                    "subject": "prayer",
+                    "action": ["is"]
+                }
+            ],
             "lesson": {
                 "situation": [
                     "Want to communicate with God",
@@ -599,11 +629,13 @@
             "people": ["Jonah", "Son of Man"],
             "places": ["belly of the great fish", "heart of the earth"],
             "actions": [],
-            "question-type" : {
-                "type": "factual",
-                "subject": "Jonah",
-                "action": ["in whale"]
-            },
+            "question-types" : [
+                {
+                    "type": "factual",
+                    "subject": "Jonah",
+                    "action": ["in whale"]
+                }
+            ],
             "lesson": {
                 "situation": [],
                 "godly-response": [],
@@ -627,11 +659,13 @@
             "people": ["Jonah", "God"],
             "places": ["belly of the great fish", "heart of the earth"],
             "actions": [],
-            "question-type" : {
-                "type": "factual",
-                "subject": "Jonah",
-                "action": ["in whale"]
-            },
+            "question-types" : [
+                {
+                    "type": "factual",
+                    "subject": "Jonah",
+                    "action": ["in whale"]
+                }
+            ],
             "lesson": {
                 "situation": [],
                 "godly-response": [],
@@ -655,11 +689,13 @@
             "people": ["brother"],
             "places": [],
             "actions": ["sins", "rebuke", "repents", "forgive"],
-            "question-type" : {
-                "type": "moral",
-                "subject": "forgiveness",
-                "action": ["of others"]
-            },
+            "question-types" : [
+                {
+                    "type": "moral",
+                    "subject": "forgiveness",
+                    "action": ["of others"]
+                }
+            ],
             "lesson": {
                 "situation": [
                     "Betrayed by friend",
@@ -692,11 +728,13 @@
             "people": ["Father"],
             "places": ["heaven"],
             "actions": ["praying", "forgive"],
-            "question-type" : {
-                "type": "moral",
-                "subject": "forgiveness",
-                "action": ["of others"]
-            },
+            "question-types" : [
+                {
+                    "type": "moral",
+                    "subject": "forgiveness",
+                    "action": ["of others"]
+                }
+            ],
             "lesson": {
                 "situation": [
                     "Betrayed by friend",
@@ -730,11 +768,13 @@
             "people": ["God", "Christ"],
             "places": [],
             "actions": ["Be kind", "forgive"],
-            "question-type" : {
-                "type": "moral",
-                "subject": "forgiveness",
-                "action": ["of others"]
-            },
+            "question-types" : [
+                {
+                    "type": "moral",
+                    "subject": "forgiveness",
+                    "action": ["of others"]
+                }
+            ],
             "lesson": {
                 "situation": [
                     "Betrayed by friend",
@@ -768,11 +808,13 @@
             "people": [],
             "places": [],
             "actions": ["comparing", "revealed"],
-            "question-type" : {
-                "type": "apologetical",
-                "subject": "suffering",
-                "action": ["world"]
-            },
+            "question-types" : [
+                {
+                    "type": "apologetical",
+                    "subject": "suffering",
+                    "action": ["world"]
+                }
+            ],
             "lesson": {
                 "situation": [
                     "Suffering",
@@ -804,11 +846,13 @@
             "people": [],
             "places": [],
             "actions": ["rejoice", "produces", "poured", "given"],
-            "question-type" : {
-                "type": "apologetical",
-                "subject": "suffering",
-                "action": ["world"]
-            },
+            "question-types" : [
+                {
+                    "type": "apologetical",
+                    "subject": "suffering",
+                    "action": ["world"]
+                }
+            ],
             "lesson": {
                 "situation": [
                     "Suffering",
@@ -842,11 +886,13 @@
             "people": [],
             "places": [],
             "actions": ["meet", "know", "testing", "produces"],
-            "question-type" : {
-                "type": "apologetical",
-                "subject": "suffering",
-                "action": ["world"]
-            },
+            "question-types" : [
+                {
+                    "type": "apologetical",
+                    "subject": "suffering",
+                    "action": ["world"]
+                }
+            ],
             "lesson": {
                 "situation": [
                     "Suffering",
@@ -878,11 +924,13 @@
             "people": [],
             "places": [],
             "actions": ["honor", "filled", "bursting"],
-            "question-type" : {
-                "type": "apologetical",
-                "subject": "suffering",
-                "action": ["world"]
-            },
+            "question-types" : [
+                {
+                    "type": "apologetical",
+                    "subject": "suffering",
+                    "action": ["world"]
+                }
+            ],
             "lesson": {
                 "situation": [
                 ],
@@ -907,11 +955,13 @@
             "people": [],
             "places": [],
             "actions": ["gained", "dwindel", "gathers"],
-            "question-type" : {
-                "type": "clarification",
-                "subject": "gambling",
-                "action": [ "sinful", "wrong" ]
-            },
+            "question-types" : [
+                {
+                    "type": "clarification",
+                    "subject": "gambling",
+                    "action": [ "sinful", "wrong" ]
+                }
+            ],
             "lesson": {
                 "situation": [
                     "Gambling addiction"
@@ -944,11 +994,13 @@
             "people": [],
             "places": [],
             "actions": ["gained", "dwindel", "gathers"],
-            "question-type" : {
-                "type": "clarification",
-                "subject": "gambling",
-                "action": [ "sinful", "wrong" ]
-            },
+            "question-types" : [
+                {
+                    "type": "clarification",
+                    "subject": "gambling",
+                    "action": [ "sinful", "wrong" ]
+                }
+            ],
             "lesson": {
                 "situation": [
                     "Gambling addiction"
@@ -981,11 +1033,13 @@
             "people": ["brother"],
             "places": [],
             "actions": ["becomes", "maintain", "support", "live"],
-            "question-type" : {
-                "type": "moral",
-                "subject": "poverty",
-                "action": ["God's reasoning"]
-            },
+            "question-types" : [
+                {
+                    "type": "moral",
+                    "subject": "poverty",
+                    "action": ["God's reasoning"]
+                }
+            ],
             "lesson": {
                 "situation": [
                     "Suffering from poverty",
@@ -1017,11 +1071,13 @@
             "people": ["mute", "poor", "needy"],
             "places": [],
             "actions": ["open", "judge", "defend"],
-            "question-type" : {
-                "type": "moral",
-                "subject": "poverty",
-                "action": ["God's reasoning"]
-            },
+            "question-types" : [
+                {
+                    "type": "moral",
+                    "subject": "poverty",
+                    "action": ["God's reasoning"]
+                }
+            ],
             "lesson": {
                 "situation": [
                     "Suffering from poverty",
@@ -1053,11 +1109,13 @@
             "people": ["poor man", "rich man"],
             "places": [],
             "actions": ["walks", "crooked"],
-            "question-type" : {
-                "type": "moral",
-                "subject": "poverty",
-                "action": ["God's reasoning"]
-            },
+            "question-types" : [
+                {
+                    "type": "moral",
+                    "subject": "poverty",
+                    "action": ["God's reasoning"]
+                }
+            ],
             "lesson": {
                 "situation": [
                     "Suffering from poverty",
@@ -1088,11 +1146,13 @@
             "people": ["husbands", "wives"],
             "places": [],
             "actions": ["live", "showing honor"],
-            "question-type" : {
-                "type": "clarification",
-                "subject": "gender",
-                "action": ["comparison"]
-            },
+            "question-types" : [
+                {
+                    "type": "clarification",
+                    "subject": "gender",
+                    "action": ["comparison"]
+                }
+            ],
             "lesson": {
                 "situation": [
                     "Defining gender roles and attributes",
@@ -1125,11 +1185,13 @@
             "people": ["husbands", "wives"],
             "places": [],
             "actions": ["submit"],
-            "question-type" : {
-                "type": "clarification",
-                "subject": "gender",
-                "action": ["comparison"]
-            },
+            "question-types" : [
+                {
+                    "type": "clarification",
+                    "subject": "gender",
+                    "action": ["comparison"]
+                }
+            ],
             "lesson": {
                 "situation": [
                     "Defining gender roles and attributes",
@@ -1160,11 +1222,13 @@
             "people": ["husbands", "wives"],
             "places": [],
             "actions": ["trusts", "does him good"],
-            "question-type" : {
-                "type": "clarification",
-                "subject": "gender",
-                "action": ["comparison"]
-            },
+            "question-types" : [
+                {
+                    "type": "clarification",
+                    "subject": "gender",
+                    "action": ["comparison"]
+                }
+            ],
             "lesson": {
                 "situation": [
                     "Defining gender roles and attributes",
@@ -1196,11 +1260,13 @@
             "people": ["we", "God"],
             "places": [],
             "actions": ["confess", "forgive", "cleanse"],
-            "question-type" : {
-                "type": "moral",
-                "subject": "repentence",
-                "action": ["meaning"]
-            },
+            "question-types" : [
+                {
+                    "type": "moral",
+                    "subject": "repentence",
+                    "action": ["meaning"]
+                }
+            ],
             "lesson": {
                 "situation": [
                     "Struggling with sin"
@@ -1232,11 +1298,13 @@
             "people": ["Peter", "Jesus Christ"],
             "places": [],
             "actions": ["Repent", "baptized", "receive"],
-            "question-type" : {
-                "type": "moral",
-                "subject": "repentence",
-                "action": ["meaning"]
-            },
+            "question-types" : [
+                {
+                    "type": "moral",
+                    "subject": "repentence",
+                    "action": ["meaning"]
+                }
+            ],
             "lesson": {
                 "situation": [
                     "Struggling with sin"
@@ -1268,11 +1336,13 @@
             "people": ["we", "God"],
             "places": [],
             "actions": ["confess", "forgive", "cleanse"],
-            "question-type" : {
-                "type": "moral",
-                "subject": "repentence",
-                "action": ["meaning"]
-            },
+            "question-types" : [
+                {
+                    "type": "moral",
+                    "subject": "repentence",
+                    "action": ["meaning"]
+                }
+            ],
             "lesson": {
                 "situation": [
                     "Struggling with sin"
@@ -1304,11 +1374,13 @@
             "people": ["dragon", "serpent", "devil", "Satan"],
             "places": [],
             "actions": ["thrown"],
-            "question-type" : {
-                "type": "clarification",
-                "subject": "demons",
-                "action": ["origin"]
-            },
+            "question-types" : [
+                {
+                    "type": "clarification",
+                    "subject": "demons",
+                    "action": ["origin"]
+                }
+            ],
             "lesson": {
                 "situation": [
                     "Interest in demons"
@@ -1340,11 +1412,13 @@
             "people": ["Jews"],
             "places": ["Jerusalem"],
             "actions": ["thrown"],
-            "question-type" : {
-                "type": "factual",
-                "subject": "tongues",
-                "action": ["real"]
-            },
+            "question-types" : [
+                {
+                    "type": "factual",
+                    "subject": "tongues",
+                    "action": ["real"]
+                }
+            ],
             "lesson": {
                 "situation": [
                     "Disbelieving tongues"
@@ -1374,11 +1448,13 @@
             "people": ["Savior", "Jesus"],
             "places": [],
             "actions": ["await", "transform", "enables", "subject"],
-            "question-type" : {
-                "type": "clarification",
-                "subject": "afterlife",
-                "action": ["details"]
-            },
+            "question-types" : [
+                {
+                    "type": "clarification",
+                    "subject": "afterlife",
+                    "action": ["details"]
+                }
+            ],
             "lesson": {
                 "situation": [
                     "fear of death", "uncertainty about death"
@@ -1409,11 +1485,13 @@
             "people": ["Father's"],
             "places": ["Father's house"],
             "actions": ["prepare"],
-            "question-type" : {
-                "type": "clarification",
-                "subject": "afterlife",
-                "action": ["details"]
-            },
+            "question-types" : [
+                {
+                    "type": "clarification",
+                    "subject": "afterlife",
+                    "action": ["details"]
+                }
+            ],
             "lesson": {
                 "situation": [
                     "fear of death", "uncertainty about death"
@@ -1443,11 +1521,13 @@
             "people": ["Lord", "King of Israel", "Redeemer"],
             "places": [],
             "actions": [],
-            "question-type" : {
-                "type": "understanding",
-                "subject": "God",
-                "action": ["uniqueness"]
-            },
+            "question-types" : [
+                {
+                    "type": "understanding",
+                    "subject": "God",
+                    "action": ["uniqueness"]
+                }
+            ],
             "lesson": {
                 "situation": [
                     "Comparing Religions"
@@ -1479,11 +1559,13 @@
             "people": ["God"],
             "places": [],
             "actions": [],
-            "question-type" : {
-                "type": "understanding",
-                "subject": "God",
-                "action": ["uniqueness"]
-            },
+            "question-types" : [
+                {
+                    "type": "understanding",
+                    "subject": "God",
+                    "action": ["uniqueness"]
+                }
+            ],
             "lesson": {
                 "situation": [
                     "Comparing Religions"
