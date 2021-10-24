@@ -165,10 +165,38 @@ class QuestionSimilarityFilter(Filter):
         # Go through the passages. For every passage, extract its list of associated questions
         # Then run a similarity searching algorithm with input as the list of associated questions, and the new given question
         # The output should be an indication of which associated question the given question is most similar to.
-        # That level of similarity is represented by a percentage or other number. \
+        # That level of similarity is represented by a percentage or other number.
         # If it larger than or equal to the given threshold, we'll score that passage
 
-        return super().process(question_context)
+        self.similarityPrep()
+        results = self.runSimilaritySearch(self.textToVector(question_context["question-text"]))
+
+        # TODO Look through the results and only extract those above threshold, then score those passages
+
+        super().process(question_context)
+
+    def runSimilaritySearch(self, question):
+        # TODO Use seeded Pinecone model and return the results
+        return None
+
+    # TODO: Is this what we really need, is it right?
+    def textToVector(self, text_str):
+        vector_list = []
+        # Convert every character into a numeric representation, and return a list of those numbers
+        for character in text_str:
+            vector_list.append(int(character))
+        return vector_list
+
+    def similarityPrep(self):
+        # Make array of pairs, each pair being a question, and its associated passage
+        association_list = []
+        for scripture in self.scripture_contexts:
+            associated_questions = scripture["questions"]
+            for question in associated_questions:
+                association_list.append((scripture["passage"], question))
+        
+        # TODO Transform list of pairs into a vector of numerical data that can seed the similarity algorithm
+        # TODO Seed the Pinecone algorithm with this data and save as a member variable
 
 # TODO
 # -----
@@ -237,4 +265,4 @@ class VerseInQuestionFilter(Filter):
     def process(self, question_context):
         # TODO Search for that verse in the index
 
-        return super().process(question_context)
+        super().process(question_context)
