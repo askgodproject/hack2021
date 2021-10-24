@@ -2,7 +2,24 @@ from os.path import join
 from os.path import split
 import json
 
-def read_json(path):
+def pythonPath(sourcefile, root_dirname):
+    # go up the directory tree until we get to the root directory of the repo
+    sub_path = sourcefile
+    last_component = ""
+    while last_component != root_dirname:
+        (sub_path, last_component) = split(sub_path)
+    return join(sub_path, last_component)
+
+def datasetsPath(sourcefile, dataset, root_dirname):
+    rootpath = pythonPath(sourcefile, root_dirname)
+    # the dataset root folder is in the same directory
+    datasets_path = join(rootpath, "data")
+
+    # append the dataset filename
+    path = join(datasets_path, dataset)
+    return path
+
+def readJson(path):
     """
     #Reads in the json data file at path
 
@@ -22,7 +39,7 @@ def read_json(path):
 
     return data
 
-def write_json(path, json_data):
+def writeJson(path, json_data):
     """
     Writes the given dictionary to the given path, in json format
 

@@ -1,68 +1,60 @@
-import sys
+from os.path import realpath
+from random import randint
 import Utils
+from DBPManager import DBPManager
+from Passage import Passage, passageKey
+from filters import PeopleFilter
 
-question_contexts = Utils.read_json("../Contexts.json");
-master_scripture_contexts = Utils.read_json("../Scriptures.json")
-situation_table = {
-    "In conflict with others": {
-        "feeling": [],
-        "concepts": [],
-        "dilema": ""
-    },
-    "Betrayed by a friend" : {
+question_contexts_full = Utils.readJson(Utils.datasetsPath(realpath(__file__), "Contexts.json", "hack2021"))
+scripture_contexts_full = Utils.readJson(Utils.datasetsPath(realpath(__file__), "Scriptures.json", "hack2021"))
+question_contexts = question_contexts_full["context"]
+scripture_contexts = scripture_contexts_full["scripture"]
+scripture_score_map = {}
+for scripture_context in scripture_contexts:
+    passage_text = scripture_context["passage"]
+    scripture_score_map[passage_text] = Passage(passage_text)
 
-    }
-}
+# situation_table = {
+#     "In conflict with others": {
+#         "feeling": [],
+#         "concepts": [],
+#         "dilema": ""
+#     },
+#     "Betrayed by a friend" : {
 
-def selectQuestion(question_contexts):
-    # Returns a question from question_contexts
-    pass
+#     }
+# }
 
-class Filter:
-    def __init__(self):
-        pass
+# Select a question from the given list of questions
+# If index is -1, then choose a random question, otherwise use the index if it's valid, otherwise just use 0
+def selectQuestion(question_contexts, index = -1):
+    # First check if there are any questions
+    num = len(question_contexts)
+    if num == 0:
+        return None
+    # Now, grab one at a valid index
+    selected_index = index if index >= 0 and index < num else randint(0, num - 1) if index == -1 else 0
+    question_context = question_contexts[selected_index]
+    return question_context
 
-    '''
-    Given a particular question context, apply filter to it
-    return all verses that conform to that filter
-    '''
-    def process(self, question_context):
-        assert False, "Call only on subclasses"
-
-class PeopleFilter(Filter):
-    def __init__(self, scripture_contexts):
-        super().__init__()
-        self.scripture_contexts = scripture_contexts
-
-    def process(self, question_context, ):
-        # All people mentioned in this question
-        people = question_context["people"]
-        # Go through all the scriptures
-        for scripture_context in self.scripture_contexts:
-            # Go through all the people mentioned in the question
-            for person in people:
-                # If a person in the question is also in this verse
-                # Then increase verse score
-                if person in scripture_context["people"]:
-                    scripture_context["score"] += 1
-
+# ----------
 # Main Method
+# ----------
 
+# First, get a question
 question_context = selectQuestion(question_contexts)
+print("Question is: " + question_context["question-text"])
 
-# TODO: Deep copy the contexts
-current_scripture_contexts = master_scripture_contexts["scripture"]
-
-# Go through all the filters
-people_filter = PeopleFilter(current_scripture_contexts)
-people_filter.process(question_context)
+filters = []
+filters.append(PeopleFilter(scripture_contexts, scripture_score_map))
+for filter in filters:
+    filter.process(question_context)
 
 # Determine which verses have the highest scores
-# TODO: Sort verses in 'current_scripture_contexts' in descending order
-# based on the "score" member
-verses = None
-verse_to_show = verses[0]
+# Sort verses in 'current_scripture_contexts' in descending order based on the "score" member
+scriptures = sorted(scripture_score_map.values(), key=passageKey, reverse=True)
+scripture_to_show = scriptures[0]
 
-print(verse_to_show["passage"])
+print("Answer is: " + scripture_to_show.reference + " - " + scripture_to_show.text())
 
 # Done
