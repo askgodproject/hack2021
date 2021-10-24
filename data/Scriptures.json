@@ -1,0 +1,1503 @@
+{
+    "scripture":[
+        {
+            "passage": "Rev.21.4-Rev.21.5",
+            "score": 0,
+            "scripture-section": "NT",
+            "applies-to": {
+                "general": ["believer", "unbeliever"],
+                "family-relation": [],
+                "occupation": []
+            },
+            "questions": [
+                "Does the Bible say it is a sin to cry?",
+                "How do we deal with sorrow?"
+            ],
+            "question-types": {
+                "type": "clarification",
+                "subject": "crying",
+                "action": ["sinful", "wrong"]
+            },
+            "people": ["God"],
+            "places": ["throne", "heaven"],
+            "actions": ["wipe every tear", "crying", "making everything new"],
+            "lesson": {
+                "situation": "sadness",
+                "godly-response": [
+                    "God cares",
+                    "There won't be grief in heaven",
+                    "God makes everything new"
+                ],
+                "worldly-response": [
+                    "hide it inside",
+                    "isolate yourself",
+                    "God doesn't want to see our emotions",
+                    "self-medicate with pleasures"
+                ]
+            },
+            "believer": "both"
+        },
+        {
+            "passage": "John.11.34-John.11.35",
+            "score": 0,
+            "scripture-section": "NT",
+            "applies-to": {
+                "general": ["believer", "unbeliever"],
+                "family-relation": [],
+                "occupation": []
+            },
+            "questions": [
+                "Does the Bible say it is a sin to cry?",
+                "Did Jesus ever cry?",
+                "Did Jesus show emotion?"
+            ],
+            "question-types": {
+                "type": "clarification",
+                "subject": "crying",
+                "action": ["sinful", "wrong", "Jesus"]
+            },
+            "people": ["Jesus", "Lord"],
+            "places": [],
+            "actions": ["wept"],
+            "lesson": {
+                "situation": "sadness",
+                "godly-response": [
+                    "Jesus showed emotion",
+                    "Jesus connected with others emotionally"
+                ],
+                "worldly-response": [
+                    "hide it inside",
+                    "isolate yourself",
+                    "God doesn't want to see our emotions",
+                    "self-medicate with pleasures"
+                ]
+            },
+            "believer": "both"
+        },
+        {
+            "passage": "1Sam.1.10",
+            "score": 0,
+            "scripture-section": "OT",
+            "applies-to": {
+                "general": ["believer", "unbeliever"],
+                "family-relation": ["mother"],
+                "occupation": []
+            },
+            "questions": [
+                "Does the Bible say it is a sin to cry?",
+                "Did people in the Bible cry?"
+            ],
+            "question-types": {
+                "type": "clarification",
+                "subject": "crying",
+                "action": ["sinful", "wrong", "Jesus"]
+            },
+            "people": ["Hannah"],
+            "places": [],
+            "actions": ["crying bitterly", "prayed"],
+            "lesson": {
+                "situation": "sadness",
+                "godly-response": [
+                    "People in the Bible cried",
+                    "People in the Bible brought their sorrows to God"
+                ],
+                "worldly-response": [
+                    "hide it inside",
+                    "isolate yourself",
+                    "God doesn't want to see our emotions",
+                    "self-medicate with pleasures"
+                ]
+            },
+            "believer": "both"
+        },
+        {
+            "passage": "John.14.6",
+            "score": 0,
+            "scripture-section": "NT",
+            "applies-to": {
+                "general": ["unbeliever"],
+                "family-relation": [],
+                "occupation": []
+            },
+            "questions": [
+                "Is Jesus really the only way to heaven?",
+                "How do we get to heaven?",
+                "Who gets to go to heaven?"
+            ],
+            "people": ["Jesus"],
+            "places": [],
+            "actions": ["come to the Father"],
+            "question-types": {
+                "type": "doctrine",
+                "subject": [
+                    "salvation",
+                    "eternal life"
+                ],
+                "action": [
+                    "way to",
+                    "acceptance",
+                    "Jesus only way"
+                ]
+            },
+            "lesson": {
+                "situation": ["Facing death", "Scared of dying"],
+                "godly-response": [
+                    "Jesus is the way, the truth, and the life",
+                    "Jesus is the only way to God the Father and eternal life"
+                ],
+                "worldly-response": [
+                    "There is no heaven",
+                    "Good works can get you to heaven",
+                    "Everyone goes to hell"
+                ]
+            },
+            "believer": "no"
+        },
+        {
+            "passage": "Acts.4.12",
+            "score": 0,
+            "scripture-section": "NT",
+            "applies-to": {
+                "general": ["unbeliever"],
+                "family-relation": [],
+                "occupation": []
+            },
+            "questions": [
+                "Is Jesus really the only way to heaven?",
+                "How do we get to heaven?",
+                "Who gets to go to heaven?",
+                "How can I be saved"
+            ],
+            "people": ["Jesus"],
+            "places": ["under heaven"],
+            "actions": ["saved"],
+            "question-types": {
+                "type": "doctrine",
+                "subject": [
+                    "salvation",
+                    "eternal life"
+                ],
+                "action": [
+                    "way to",
+                    "acceptance",
+                    "Jesus only way"
+                ]
+            },
+            "lesson": {
+                "situation": ["Scared of dying", "Wanting to be saved"],
+                "godly-response": [
+                    "Jesus is the only name by which we are saved",
+                    "There is only salvation in JEsus"
+                ],
+                "worldly-response": [
+                    "We can be saved by good works",
+                    "We can go to heaven by good works"
+                ]
+            },
+            "believer": "no"
+        },
+        {
+            "passage": "John.3.16",
+            "score": 0,
+            "scripture-section": "NT",
+            "applies-to": {
+                "general": ["unbeliever"],
+                "family-relation": [],
+                "occupation": []
+            },
+            "questions": [
+                "Is Jesus really the only way to heaven?",
+                "How do we get eternal life?",
+                "Who gets to go to heaven?"
+            ],
+            "people": ["God", "the world", "his only Son"],
+            "places": [],
+            "actions": ["loved", "gave", "believes", "perish", "have"],
+            "question-types": {
+                "type": "doctrine",
+                "subject": [
+                    "salvation",
+                    "eternal life"
+                ],
+                "action": [
+                    "way to",
+                    "acceptance",
+                    "Jesus only way"
+                ]
+            },
+            "lesson": {
+                "situation": ["Scared of dying", "Wanting to be saved"],
+                "godly-response": [
+                    "God gave his Son out of love for the world",
+                    "Whoever believes in Jesus will not perish but have eternal life"
+                ],
+                "worldly-response": [
+                    "Good works can get you to heaven",
+                    "Everyone goes to hell"
+                ]
+            },
+            "believer": "no"
+        },
+        {
+            "passage": "Lev.18.22",
+            "score": 0,
+            "scripture-section": "OT",
+            "applies-to": {
+                "general": ["homosexual"],
+                "family-relation": [],
+                "occupation": []
+            },
+            "questions": [
+                "Did Jesus talk about homosexuality?",
+                "What does the Bible say about homosexuality?",
+                "Is homosexuality a sin?"
+            ],
+            "people": ["male", "woman"],
+            "places": [],
+            "actions": ["lie"],
+            "question-types": {
+                "type": "clarification",
+                "subject": "homosexuality",
+                "action": [ "sinful", "wrong" ]
+            },
+            "lesson": {
+                "situation": [
+                    "Sexual confusion", 
+                    "Struggling with homosexuality", 
+                    "Wants to help friends with homosexuality"
+                ],
+                "godly-response": [
+                    "The Bible says homosexuality is an abomination",
+                    "The Bible commands not to lie with a male as with a woman"
+                ],
+                "worldly-response": [
+                    "Homosexuality is not a sin",
+                    "The Bible is outdated"
+                ]
+            },
+            "believer": "no"
+        },
+        {
+            "passage": "1Cor.6.9-1Cor6.11",
+            "score": 0,
+            "scripture-section": "NT",
+            "applies-to": {
+                "general": ["homosexual", "idolaters", "adulterers", "theives"],
+                "family-relation": [],
+                "occupation": []
+            },
+            "questions": [
+                "Did Jesus talk about homosexuality?",
+                "What does the Bible say about homosexuality?",
+                "Is homosexuality a sin?",
+                "What are sins in the eyes of the Lord?"
+            ],
+            "people": ["drunkards", "men", "idolaters", "Jesus"],
+            "places": [],
+            "actions": ["deceived", "swindle", "practice homosexuality", "sanctified", "justified"],
+            "question-types": {
+                "type": "clarification",
+                "subject": "homosexuality",
+                "action": [ "sinful", "wrong" ]
+            },
+            "lesson": {
+                "situation": [
+                    "Sexual confusion", 
+                    "Struggling with homosexuality", 
+                    "Wants to help friends with homosexuality"
+                ],
+                "godly-response": [
+                    "The Bible says the unrighteous, like men who practice homosexuality, will not inherit the kingdom of God",
+                    "We are washed, sanctified, and justified in Jesus even though we are unrighteous."
+                ],
+                "worldly-response": [
+                    "Homosexuality is not a sin",
+                    "Sexual immorality is not a sin"
+                ]
+            },
+            "believer": "no"
+        },
+        {
+            "passage": "Rom.1.26-Rom.1.27",
+            "score": 0,
+            "scripture-section": "NT",
+            "applies-to": {
+                "general": ["homosexual"],
+                "family-relation": [],
+                "occupation": []
+            },
+            "questions": [
+                "Did Jesus talk about homosexuality?",
+                "What does the Bible say about homosexuality?",
+                "Is homosexuality a sin?"
+            ],
+            "people": ["men", "women"],
+            "places": [],
+            "actions": ["committing shameless acts", "exchanged natural relations"],
+            "question-types": {
+                "type": "clarification",
+                "subject": "homosexuality",
+                "action": [ "sinful", "wrong" ]
+            },
+            "lesson": {
+                "situation": [
+                    "Sexual confusion", 
+                    "Struggling with homosexuality", 
+                    "Wants to help friends with homosexuality"
+                ],
+                "godly-response": [
+                    "The Bible says giving up natural relations is a dishonorable passion",
+                    "Men in the Bible received penalty for committing shameless acts"
+                ],
+                "worldly-response": [
+                    "Homosexuality is not a sin",
+                    "The Bible is outdated"
+                ]
+            },
+            "believer": "no"
+        },
+        {
+            "passage": "Isa.9.6",
+            "score": 0,
+            "scripture-section": "OT",
+            "applies-to": {
+                "general": [],
+                "family-relation": [],
+                "occupation": []
+            },
+            "questions": [
+                "Is Jesus in the Old Testament?",
+                "Are there prophecies about Jesus?"
+            ],
+            "people": ["son", "Jesus"],
+            "places": [],
+            "actions": ["born", "given"],
+            "question-type" : {
+                "type": "clarification",
+                "subject": "Jesus",
+                "action": ["in OT", "lived in OT"]
+            },
+            "lesson": {
+                "situation": [
+                    "Interested in prophecy",
+                    "Interested in God's plan for Jesus"
+                ],
+                "godly-response": [
+                    "The government is on Jesus's shoulder",
+                    "Jesus is the Wonderful Counselor, Mighty God, Everlasting Father, Prince of Peace",
+                    "Jesus was prophesied to come"
+                ],
+                "worldly-response": [
+                    "Jesus was only a human",
+                    "Jesus was not God"
+                ]
+            },
+            "believer": "no"
+        },
+        {
+            "passage": "Isa.7.14",
+            "score": 0,
+            "scripture-section": "OT",
+            "applies-to": {
+                "general": [],
+                "family-relation": [],
+                "occupation": []
+            },
+            "questions": [
+                "Is Jesus in the Old Testament?",
+                "Are there prophecies about Jesus?"
+            ],
+            "people": ["Lord", "virgin", "Jesus"],
+            "places": [],
+            "actions": ["born", "give a sign", "conceive"],
+            "question-type" : {
+                "type": "clarification",
+                "subject": "Jesus",
+                "action": ["in OT", "lived in OT"]
+            },
+            "lesson": {
+                "situation": [
+                    "Interested in prophecy",
+                    "Interested in God's plan for Jesus"
+                ],
+                "godly-response": [
+                    "Jesus was given from God",
+                    "Jesus was prophesied in OT to be born to a virgin",
+                ],
+                "worldly-response": [
+                    "Jesus was only a human",
+                    "Jesus was not God"
+                ]
+            },
+            "believer": "no"
+        },
+        {
+            "passage": " Micah.5.2",
+            "score": 0,
+            "scripture-section": "OT",
+            "applies-to": {
+                "general": [],
+                "family-relation": [],
+                "occupation": []
+            },
+            "questions": [
+                "Is Jesus in the Old Testament?",
+                "Are there prophecies about Jesus?"
+            ],
+            "people": ["Jesus"],
+            "places": ["Bethlehem Ephrathah", "Judah", "Israel"],
+            "actions": ["coming forth"],
+            "question-type" : {
+                "type": "clarification",
+                "subject": "Jesus",
+                "action": ["in OT", "lived in OT"]
+            },
+            "lesson": {
+                "situation": [
+                    "Interested in prophecy",
+                    "Interested in God's plan for Jesus"
+                ],
+                "godly-response": [
+                    "Jesus was prophesied to be ruler in Israel",
+                    "Prophesies about Jesus in the OT were fulfilled"
+                ],
+                "worldly-response": [
+                    "Jesus was only a human",
+                    "Jesus was not God"
+                ]
+            },
+            "believer": "no"
+        },
+        {
+            "passage": "John.15.7",
+            "score": 0,
+            "scripture-section": "NT",
+            "applies-to": {
+                "general": ["believers", "nonbelievers"],
+                "family-relation": [],
+                "occupation": []
+            },
+            "questions": [
+                "What is prayer?",
+                "When should we pray?",
+                "How does prayer work?"
+            ],
+            "people": ["God"],
+            "places": [],
+            "actions": ["abide", "ask"],
+            "question-type" : {
+                "type": "understanding",
+                "subject": "prayer",
+                "action": ["is"]
+            },
+            "lesson": {
+                "situation": [
+                    "Want to communicate with God",
+                    "Needs to be listened to"
+                ],
+                "godly-response": [
+                    "Prayer works if you abide in God and His words abide in you",
+                    "Prayer includes asking whatever you wish from God",
+                    "God answers prayers"
+                ],
+                "worldly-response": [
+                    "Prayer doesn't work",
+                    "Prayer is all in your head"
+                ]
+            },
+            "believer": "no"
+        },
+        {
+            "passage": "Luke.11.9",
+            "score": 0,
+            "scripture-section": "NT",
+            "applies-to": {
+                "general": ["believers", "nonbelievers"],
+                "family-relation": [],
+                "occupation": []
+            },
+            "questions": [
+                "What is prayer?",
+                "When should we pray?",
+                "How does prayer work?"
+            ],
+            "people": ["God"],
+            "places": [],
+            "actions": ["abide", "ask"],
+            "question-type" : {
+                "type": "understanding",
+                "subject": "prayer",
+                "action": ["is"]
+            },
+            "lesson": {
+                "situation": [
+                    "Want to communicate with God",
+                    "Needs to be listened to"
+                ],
+                "godly-response": [
+                    "Prayer is asking, seeking, and knocking at God's door",
+                    "God answers prayers"
+                ],
+                "worldly-response": [
+                    "Prayer doesn't work",
+                    "Prayer is all in your head"
+                ]
+            },
+            "believer": "no"
+        },
+        {
+            "passage": "Matt.6.9-Matt.6.13",
+            "score": 0,
+            "scripture-section": "NT",
+            "applies-to": {
+                "general": ["believers", "nonbelievers"],
+                "family-relation": [],
+                "occupation": []
+            },
+            "questions": [
+                "What is prayer?",
+                "When should we pray?",
+                "How does prayer work?"
+            ],
+            "people": ["God"],
+            "places": [],
+            "actions": ["abide", "ask"],
+            "question-type" : {
+                "type": "understanding",
+                "subject": "prayer",
+                "action": ["is"]
+            },
+            "lesson": {
+                "situation": [
+                    "Want to communicate with God",
+                    "Needs to be listened to"
+                ],
+                "godly-response": [
+                    "The Bible gives examples of how we should pray",
+                    "Prayer includes praising God and asking for forgiveness"
+                ],
+                "worldly-response": [
+                    "Prayer doesn't work",
+                    "Prayer is all in your head"
+                ]
+            },
+            "believer": "no"
+        },
+        {
+            "passage": "Matt.12.40",
+            "score": 0,
+            "scripture-section": "NT",
+            "applies-to": {
+                "general": [],
+                "family-relation": [],
+                "occupation": []
+            },
+            "questions": [
+                "Did Jonah really spend three days in a [whale or fish]?",
+                "How long until Jesus resurrected?"
+            ],
+            "people": ["Jonah", "Son of Man"],
+            "places": ["belly of the great fish", "heart of the earth"],
+            "actions": [],
+            "question-type" : {
+                "type": "factual",
+                "subject": "Jonah",
+                "action": ["in whale"]
+            },
+            "lesson": {
+                "situation": [],
+                "godly-response": [],
+                "worldly-response": []
+            },
+            "believer": "no"
+        },
+        {
+            "passage": "Jonah.2.1-Jonah.2.10",
+            "score": 0,
+            "scripture-section": "OT",
+            "applies-to": {
+                "general": [],
+                "family-relation": [],
+                "occupation": []
+            },
+            "questions": [
+                "Did Jonah really spend three days in a [whale or fish]?",
+                "What happened to Jonah?"
+            ],
+            "people": ["Jonah", "God"],
+            "places": ["belly of the great fish", "heart of the earth"],
+            "actions": [],
+            "question-type" : {
+                "type": "factual",
+                "subject": "Jonah",
+                "action": ["in whale"]
+            },
+            "lesson": {
+                "situation": [],
+                "godly-response": [],
+                "worldly-response": []
+            },
+            "believer": "no"
+        },
+        {
+            "passage": "Luke.17.3-Luke.17.4",
+            "score": 0,
+            "scripture-section": "NT",
+            "applies-to": {
+                "general": ["believers", "nonbelievers"],
+                "family-relation": [],
+                "occupation": []
+            },
+            "questions": [
+                "How do I forgive someone who has betrayed me?",
+                "Why do I need to forgive people?"
+            ],
+            "people": ["brother"],
+            "places": [],
+            "actions": ["sins", "rebuke", "repents", "forgive"],
+            "question-type" : {
+                "type": "moral",
+                "subject": "forgiveness",
+                "action": ["of others"]
+            },
+            "lesson": {
+                "situation": [
+                    "Betrayed by friend",
+                    "In conflict with others"
+                ],
+                "godly-response": [
+                    "Rebuke sin",
+                    "Forgive those who repent"
+                ],
+                "worldly-response": [
+                    "I shouldn't have to forgive others",
+                    "Forgiveness shouldn't be freely given"
+                ]
+            },
+            "believer": "both"
+        },
+        {
+            "passage": "Mark.11.25",
+            "score": 0,
+            "scripture-section": "NT",
+            "applies-to": {
+                "general": ["believers", "nonbelievers"],
+                "family-relation": [],
+                "occupation": []
+            },
+            "questions": [
+                "How do I forgive someone who has betrayed me?",
+                "Why do I need to forgive people?"
+            ],
+            "people": ["Father"],
+            "places": ["heaven"],
+            "actions": ["praying", "forgive"],
+            "question-type" : {
+                "type": "moral",
+                "subject": "forgiveness",
+                "action": ["of others"]
+            },
+            "lesson": {
+                "situation": [
+                    "Betrayed by friend",
+                    "In conflict with others"
+                ],
+                "godly-response": [
+                    "Forgiveness can be through prayer",
+                    "Forgive those you have anything against",
+                    "Forgive because our Father also forgives us"
+                ],
+                "worldly-response": [
+                    "I shouldn't have to forgive others",
+                    "Forgiveness shouldn't be freely given"
+                ]
+            },
+            "believer": "both"
+        },
+        {
+            "passage": "Eph.4.32",
+            "score": 0,
+            "scripture-section": "NT",
+            "applies-to": {
+                "general": ["believers", "nonbelievers"],
+                "family-relation": [],
+                "occupation": []
+            },
+            "questions": [
+                "How do I forgive someone who has betrayed me?",
+                "Why do I need to forgive people?"
+            ],
+            "people": ["God", "Christ"],
+            "places": [],
+            "actions": ["Be kind", "forgive"],
+            "question-type" : {
+                "type": "moral",
+                "subject": "forgiveness",
+                "action": ["of others"]
+            },
+            "lesson": {
+                "situation": [
+                    "Betrayed by friend",
+                    "In conflict with others"
+                ],
+                "godly-response": [
+                    "Be kind to others",
+                    "Forgive those you have anything against",
+                    "Forgive because our Father also forgives us"
+                ],
+                "worldly-response": [
+                    "I shouldn't have to forgive others",
+                    "Forgiveness shouldn't be freely given"
+                ]
+            },
+            "believer": "both"
+        },
+        {
+            "passage": "Rom.8.18",
+            "score": 0,
+            "scripture-section": "NT",
+            "applies-to": {
+                "general": ["nonbelievers"],
+                "family-relation": [],
+                "occupation": []
+            },
+            "questions": [
+                "Why is there so much suffering in the world?",
+                "Why does God permit suffering if he is good?"
+            ],
+            "people": [],
+            "places": [],
+            "actions": ["comparing", "revealed"],
+            "question-type" : {
+                "type": "apologetical",
+                "subject": "suffering",
+                "action": ["world"]
+            },
+            "lesson": {
+                "situation": [
+                    "Suffering",
+                    "Seeing others suffer"
+                ],
+                "godly-response": [
+                    "Current sufferengs don't compare to the glory that will come"
+                ],
+                "worldly-response": [
+                    "God has no greater plan for us",
+                    "A good God wouln't allow suffering"
+                ]
+            },
+            "believer": "no"
+        },
+        {
+            "passage": "Rom.5.3-Rom.5.5",
+            "score": 0,
+            "scripture-section": "NT",
+            "applies-to": {
+                "general": ["nonbelievers"],
+                "family-relation": [],
+                "occupation": []
+            },
+            "questions": [
+                "Why is there so much suffering in the world?",
+                "Why does God permit suffering if he is good?"
+            ],
+            "people": [],
+            "places": [],
+            "actions": ["rejoice", "produces", "poured", "given"],
+            "question-type" : {
+                "type": "apologetical",
+                "subject": "suffering",
+                "action": ["world"]
+            },
+            "lesson": {
+                "situation": [
+                    "Suffering",
+                    "Seeing others suffer"
+                ],
+                "godly-response": [
+                    "Rejoice in suffering because it produces endurance, character, and hope.",
+                    "God's love is in our hearts"
+                ],
+                "worldly-response": [
+                    "God has no greater plan for us",
+                    "A good God wouln't allow suffering",
+                    "Suffering is only bad"
+                ]
+            },
+            "believer": "no"
+        },
+        {
+            "passage": "James.1.2-James.1.4",
+            "score": 0,
+            "scripture-section": "NT",
+            "applies-to": {
+                "general": ["nonbelievers"],
+                "family-relation": [],
+                "occupation": []
+            },
+            "questions": [
+                "Why is there so much suffering in the world?",
+                "Why does God permit suffering if he is good?"
+            ],
+            "people": [],
+            "places": [],
+            "actions": ["meet", "know", "testing", "produces"],
+            "question-type" : {
+                "type": "apologetical",
+                "subject": "suffering",
+                "action": ["world"]
+            },
+            "lesson": {
+                "situation": [
+                    "Suffering",
+                    "Seeing others suffer"
+                ],
+                "godly-response": [
+                    "Count all trials we meet joy",
+                    "Suffering is testing of our faith, which produces steadfastness"
+                ],
+                "worldly-response": [
+                    "God has no greater plan for us",
+                    "A good God wouln't allow suffering"
+                ]
+            },
+            "believer": "no"
+        },
+        {
+            "passage": "Prov.3.9-Prov.3.10",
+            "score": 0,
+            "scripture-section": "OT",
+            "applies-to": {
+                "general": ["animals"],
+                "family-relation": [],
+                "occupation": []
+            },
+            "questions": [
+                "Why did God have people do animal sacrifices in the Bible?"
+            ],
+            "people": [],
+            "places": [],
+            "actions": ["honor", "filled", "bursting"],
+            "question-type" : {
+                "type": "apologetical",
+                "subject": "suffering",
+                "action": ["world"]
+            },
+            "lesson": {
+                "situation": [
+                ],
+                "godly-response": [],
+                "worldly-response": []
+            },
+            "believer": "no"
+        },
+        {
+            "passage": "Prov.13.11",
+            "scripture-section": "NT",
+            "applies-to": {
+                "general": ["nonbelievers"],
+                "family-relation": [],
+                "occupation": []
+            },
+            "questions": [
+                "Is it a sin to go to the casino?",
+                "Is gambling a sin?",
+                "How should wealth be gained?"
+            ],
+            "people": [],
+            "places": [],
+            "actions": ["gained", "dwindel", "gathers"],
+            "question-type" : {
+                "type": "clarification",
+                "subject": "gambling",
+                "action": [ "sinful", "wrong" ]
+            },
+            "lesson": {
+                "situation": [
+                    "Gambling addiction"
+                ],
+                "godly-response": [
+                    "Don't gain wealth hastily",
+                    "Whoever gains wealth little by little will increase in it"
+                ],
+                "worldly-response": [
+                    "Increasing money is always good",
+                    "It's better to increase your wealth quickly"
+                ]
+            },
+            "believer": "no"
+        },
+        {
+            "passage": "1Tim.6.10",
+            "score": 0,
+            "scripture-section": "NT",
+            "applies-to": {
+                "general": ["nonbelievers"],
+                "family-relation": [],
+                "occupation": []
+            },
+            "questions": [
+                "Is it a sin to go to the casino?",
+                "Is gambling a sin?",
+                "How should wealth be gained?"
+            ],
+            "people": [],
+            "places": [],
+            "actions": ["gained", "dwindel", "gathers"],
+            "question-type" : {
+                "type": "clarification",
+                "subject": "gambling",
+                "action": [ "sinful", "wrong" ]
+            },
+            "lesson": {
+                "situation": [
+                    "Gambling addiction"
+                ],
+                "godly-response": [
+                    "The love of money is a root of evil",
+                    "Loving money causes people to turn away from faith"
+                ],
+                "worldly-response": [
+                    "Increasing money is always good",
+                    "It's better to increase your wealth quickly"
+                ]
+            },
+            "believer": "no"
+        },
+        {
+            "passage": "Lev.25.35",
+            "score": 0,
+            "scripture-section": "NT",
+            "applies-to": {
+                "general": ["Opponent of the Gospel"],
+                "family-relation": [],
+                "occupation": []
+            },
+            "questions": [
+                "Why does God allow poverty to exist?",
+                "What does the Bible say about poverty",
+                "What should policy for poverty be?"
+            ],
+            "people": ["brother"],
+            "places": [],
+            "actions": ["becomes", "maintain", "support", "live"],
+            "question-type" : {
+                "type": "moral",
+                "subject": "poverty",
+                "action": ["God's reasoning"]
+            },
+            "lesson": {
+                "situation": [
+                    "Suffering from poverty",
+                    "Seeing others in poverty"
+                ],
+                "godly-response": [
+                    "Support those around you who become poor"
+                ],
+                "worldly-response": [
+                    "We should help the poor, if convenient"
+                ]
+            },
+            "believer": "no"
+        },
+        {
+            "passage": "Prov.28.6",
+            "score": 0,
+            "scripture-section": "OT",
+            "applies-to": {
+                "general": ["Opponent of the Gospel"],
+                "family-relation": [],
+                "occupation": []
+            },
+            "questions": [
+                "Why does God allow poverty to exist?",
+                "What does the Bible say about poverty",
+                "What should policy for poverty be?"
+            ],
+            "people": ["mute", "poor", "needy"],
+            "places": [],
+            "actions": ["open", "judge", "defend"],
+            "question-type" : {
+                "type": "moral",
+                "subject": "poverty",
+                "action": ["God's reasoning"]
+            },
+            "lesson": {
+                "situation": [
+                    "Suffering from poverty",
+                    "Seeing others in poverty"
+                ],
+                "godly-response": [
+                    "Defend the rights of the poor and needy"
+                ],
+                "worldly-response": [
+                    "We should help the poor, if convenient"
+                ]
+            },
+            "believer": "no"
+        },
+        {
+            "passage": "Prov.28.6",
+            "score": 0,
+            "scripture-section": "OT",
+            "applies-to": {
+                "general": ["Opponent of the Gospel"],
+                "family-relation": [],
+                "occupation": ["Unemployed"]
+            },
+            "questions": [
+                "Why does God allow poverty to exist?",
+                "What does the Bible say about poverty",
+                "What should policy for poverty be?"
+            ],
+            "people": ["poor man", "rich man"],
+            "places": [],
+            "actions": ["walks", "crooked"],
+            "question-type" : {
+                "type": "moral",
+                "subject": "poverty",
+                "action": ["God's reasoning"]
+            },
+            "lesson": {
+                "situation": [
+                    "Suffering from poverty",
+                    "Seeing others in poverty"
+                ],
+                "godly-response": [
+                    "A poor man with integrity is better than a rich man without"
+                ],
+                "worldly-response": [
+                    "A poor man is lesser than a rich man"
+                ]
+            },
+            "believer": "no"
+        },
+        {
+            "passage": "1Pet.3.7",
+            "score": 0,
+            "scripture-section": "NT",
+            "applies-to": {
+                "general": [],
+                "family-relation": ["Wife", "Husband"],
+                "occupation": []
+            },
+            "questions": [
+                "Does the Bible say men are better than women?",
+                "What does the Bible say about men and women's roles"
+            ],
+            "people": ["husbands", "wives"],
+            "places": [],
+            "actions": ["live", "showing honor"],
+            "question-type" : {
+                "type": "clarification",
+                "subject": "gender",
+                "action": ["comparison"]
+            },
+            "lesson": {
+                "situation": [
+                    "Defining gender roles and attributes",
+                    "Conflict in marriage"
+                ],
+                "godly-response": [
+                    "Husbands should be understanding and show honor to the woman",
+                    "Woman are a weaker vessel than men",
+                    "Both men and women are heirs in the grace of life"
+                ],
+                "worldly-response": [
+                    "Men and women are not different in strength or body"
+                ]
+            },
+            "believer": "no"
+        },
+        {
+            "passage": "Col.3.18",
+            "score": 0,
+            "scripture-section": "NT",
+            "applies-to": {
+                "general": [],
+                "family-relation": ["Wives", "Husbands"],
+                "occupation": []
+            },
+            "questions": [
+                "Does the Bible say men are better than women?",
+                "What does the Bible say about men and women's roles"
+            ],
+            "people": ["husbands", "wives"],
+            "places": [],
+            "actions": ["submit"],
+            "question-type" : {
+                "type": "clarification",
+                "subject": "gender",
+                "action": ["comparison"]
+            },
+            "lesson": {
+                "situation": [
+                    "Defining gender roles and attributes",
+                    "Conflict in marriage"
+                ],
+                "godly-response": [
+                    "Wives should submit to their husbands, as is fitting in the Lord"
+                ],
+                "worldly-response": [
+                    "Women should not have to submit to their husbands"
+                ]
+            },
+            "believer": "no"
+        },
+        {
+            "passage": "Prov.31.10-Prov.31.31",
+            "score": 0,
+            "scripture-section": "NT",
+            "applies-to": {
+                "general": [],
+                "family-relation": ["Wife", "Husband"],
+                "occupation": []
+            },
+            "questions": [
+                "Does the Bible say men are better than women?",
+                "What does the Bible say about men and women's roles"
+            ],
+            "people": ["husbands", "wives"],
+            "places": [],
+            "actions": ["trusts", "does him good"],
+            "question-type" : {
+                "type": "clarification",
+                "subject": "gender",
+                "action": ["comparison"]
+            },
+            "lesson": {
+                "situation": [
+                    "Defining gender roles and attributes",
+                    "Conflict in marriage"
+                ],
+                "godly-response": [
+                    "A good wife is precious, her husband trusts in her",
+                    "A good wife provides"
+                ],
+                "worldly-response": [
+                    "Christianity says women have little value"
+                ]
+            },
+            "believer": "no"
+        },
+        {
+            "passage": "1John.1.9",
+            "score": 0,
+            "scripture-section": "NT",
+            "applies-to": {
+                "general": ["seeker"],
+                "family-relation": [],
+                "occupation": []
+            },
+            "questions": [
+                "What does it mean to repent from sin?",
+                "What happens when we repent?"
+            ],
+            "people": ["we", "God"],
+            "places": [],
+            "actions": ["confess", "forgive", "cleanse"],
+            "question-type" : {
+                "type": "moral",
+                "subject": "repentence",
+                "action": ["meaning"]
+            },
+            "lesson": {
+                "situation": [
+                    "Struggling with sin"
+                ],
+                "godly-response": [
+                    "God is fathful and just when we confess our sins",
+                    "God forgives us and cleanses us when we confess our sins"
+                ],
+                "worldly-response": [
+                    "Confessing your sins doesn't do anything",
+                    "God punishes us for sinning"
+                ]
+            },
+            "believer": "both"
+        },
+        {
+            "passage": "Acts.2.38",
+            "score": 0,
+            "scripture-section": "NT",
+            "applies-to": {
+                "general": ["seeker"],
+                "family-relation": [],
+                "occupation": []
+            },
+            "questions": [
+                "What does it mean to repent from sin?",
+                "What happens when we repent?"
+            ],
+            "people": ["Peter", "Jesus Christ"],
+            "places": [],
+            "actions": ["Repent", "baptized", "receive"],
+            "question-type" : {
+                "type": "moral",
+                "subject": "repentence",
+                "action": ["meaning"]
+            },
+            "lesson": {
+                "situation": [
+                    "Struggling with sin"
+                ],
+                "godly-response": [
+                    "Repenting and baptizing is in the name of Jesus",
+                    "Repenting allows us to receive the gift of the Holy Spirit"
+                ],
+                "worldly-response": [
+                    "Confessing your sins doesn't do anything",
+                    "God punishes us for sinning"
+                ]
+            },
+            "believer": "both"
+        },
+        {
+            "passage": "Luke.13.3",
+            "score": 0,
+            "scripture-section": "NT",
+            "applies-to": {
+                "general": ["seeker"],
+                "family-relation": [],
+                "occupation": []
+            },
+            "questions": [
+                "What does it mean to repent from sin?",
+                "What happens when we repent?"
+            ],
+            "people": ["we", "God"],
+            "places": [],
+            "actions": ["confess", "forgive", "cleanse"],
+            "question-type" : {
+                "type": "moral",
+                "subject": "repentence",
+                "action": ["meaning"]
+            },
+            "lesson": {
+                "situation": [
+                    "Struggling with sin"
+                ],
+                "godly-response": [
+                    "God is fathful and just when we confess our sins",
+                    "God forgives us and cleanses us when we confess our sins"
+                ],
+                "worldly-response": [
+                    "Confessing your sins doesn't do anything",
+                    "God punishes us for sinning"
+                ]
+            },
+            "believer": "no"
+        },
+        {
+            "passage": "Rev.12.9",
+            "score": 0,
+            "scripture-section": "NT",
+            "applies-to": {
+                "general": [],
+                "family-relation": [],
+                "occupation": []
+            },
+            "questions": [
+                "here do demons come from?",
+                "How did Satan come to be?"
+            ],
+            "people": ["dragon", "serpent", "devil", "Satan"],
+            "places": [],
+            "actions": ["thrown"],
+            "question-type" : {
+                "type": "clarification",
+                "subject": "demons",
+                "action": ["origin"]
+            },
+            "lesson": {
+                "situation": [
+                    "Interest in demons"
+                ],
+                "godly-response": [
+                    "Satan is the deceiver of the whole world",
+                    "Satan was thrown down to earth with his angels"
+                ],
+                "worldly-response": [
+                    "Satan isn't real",
+                    "Demons aren't real"
+                ]
+            },
+            "believer": "no"
+        },
+        {
+            "passage": "Acts.2.1-Acts.2.47",
+            "score": 0,
+            "scripture-section": "NT",
+            "applies-to": {
+                "general": ["spiritual people"],
+                "family-relation": [],
+                "occupation": []
+            },
+            "questions": [
+                "Is speaking in tongues real?",
+                "How do people speak in tongues"
+            ],
+            "people": ["Jews"],
+            "places": ["Jerusalem"],
+            "actions": ["thrown"],
+            "question-type" : {
+                "type": "factual",
+                "subject": "tongues",
+                "action": ["real"]
+            },
+            "lesson": {
+                "situation": [
+                    "Disbelieving tongues"
+                ],
+                "godly-response": [
+                    "The Holy Spirit filled them to speak in tongues?"
+                ],
+                "worldly-response": [
+                    "Speaking in tongues is not real"
+                ]
+            },
+            "believer": "both"
+        },
+        {
+            "passage": "Phil.3.20-Phil.3.21",
+            "score": 0,
+            "scripture-section": "NT",
+            "applies-to": {
+                "general": ["unbelievers"],
+                "family-relation": [],
+                "occupation": []
+            },
+            "questions": [
+                "What happens when I die?",
+                "Is there an afterlife?"
+            ],
+            "people": ["Savior", "Jesus"],
+            "places": [],
+            "actions": ["await", "transform", "enables", "subject"],
+            "question-type" : {
+                "type": "clarification",
+                "subject": "afterlife",
+                "action": ["details"]
+            },
+            "lesson": {
+                "situation": [
+                    "fear of death", "uncertainty about death"
+                ],
+                "godly-response": [
+                    "Our citizenship is in heaven",
+                    "Our earthly bodies will transform to be like Christ's glorious body"
+                ],
+                "worldly-response": [
+                    "When we die we die forever"
+                ]
+            },
+            "believer": "both"
+        },
+        {
+            "passage": "John.14.2",
+            "score": 0,
+            "scripture-section": "NT",
+            "applies-to": {
+                "general": ["unbelievers"],
+                "family-relation": [],
+                "occupation": []
+            },
+            "questions": [
+                "What happens when I die?",
+                "Is there an afterlife?"
+            ],
+            "people": ["Father's"],
+            "places": ["Father's house"],
+            "actions": ["prepare"],
+            "question-type" : {
+                "type": "clarification",
+                "subject": "afterlife",
+                "action": ["details"]
+            },
+            "lesson": {
+                "situation": [
+                    "fear of death", "uncertainty about death"
+                ],
+                "godly-response": [
+                    "Jesus has prepared a place for us in his Father's house",
+                ],
+                "worldly-response": [
+                    "When we die we die forever"
+                ]
+            },
+            "believer": "both"
+        },
+        {
+            "passage": "Isaiah.44.6",
+            "score": 0,
+            "scripture-section": "OT",
+            "applies-to": {
+                "general": ["unbelievers"],
+                "family-relation": [],
+                "occupation": []
+            },
+            "questions": [
+                "What is special about the Christian God??",
+                "What is the Christian God like"
+            ],
+            "people": ["Lord", "King of Israel", "Redeemer"],
+            "places": [],
+            "actions": [],
+            "question-type" : {
+                "type": "understanding",
+                "subject": "God",
+                "action": ["uniqueness"]
+            },
+            "lesson": {
+                "situation": [
+                    "Comparing Religions"
+                ],
+                "godly-response": [
+                    "God is the first and the last",
+                    "There is no other God besides "
+                ],
+                "worldly-response": [
+                    "There are many gods",
+                    "There are no gods"
+                ]
+            },
+            "believer": "no"
+        },
+        {
+            "passage": "Jeremiah.10.12",
+            "score": 0,
+            "scripture-section": "OT",
+            "applies-to": {
+                "general": ["unbelievers"],
+                "family-relation": [],
+                "occupation": []
+            },
+            "questions": [
+                "What is special about the Christian God??",
+                "What is the Christian God like"
+            ],
+            "people": ["God"],
+            "places": [],
+            "actions": [],
+            "question-type" : {
+                "type": "understanding",
+                "subject": "God",
+                "action": ["uniqueness"]
+            },
+            "lesson": {
+                "situation": [
+                    "Comparing Religions"
+                ],
+                "godly-response": [
+                    "God created the earth by his power and wisdom",
+                    "God created the heavens by his understanding"
+                ],
+                "worldly-response": [
+                    "There are many gods",
+                    "There are no gods"
+                ]
+            },
+            "believer": "no"
+        }
+    ]
+}
