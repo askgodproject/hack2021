@@ -7,7 +7,7 @@
                 "sin",
                 "cry"
             ],
-            "decision-words": [],
+            "relates-to": [],
             "scripture-section" : "Both",
             "emotions": [
                 "confusion"
@@ -38,7 +38,7 @@
                 "way",
                 "heaven"
             ],
-            "decision-words": [],
+            "relates-to": [],
             "scripture-section" : "NT",
             "emotions": [
                 "confusion"
@@ -51,9 +51,17 @@
             "actions": [],
             "believer" : false,
             "question-type" : {
-                "type": "doctrine",
-                "subject": [ "salvation", "heaven", "afterlife", "eternal life" ],
-                "action": [ "Jesus the way", "Jesus only way", "way to", "acceptance" ]
+                "type": "doctrinal",
+                "subject": [
+                    "salvation",
+                    "afterlife",
+                    "eternal life"
+                ],
+                "action": [
+                "way to",
+                "acceptance",
+                "Jesus only way"
+                ]
             },
             "verse-in-the-question" : ""
         },
@@ -63,7 +71,7 @@
                 "Jesus",
                 "homosexuality"
             ],
-            "decision-words": [],
+            "relates-to": ["homosexual"],
             "scripture-section" : "NT",
             "emotions": [
                 "confusion"
@@ -90,7 +98,7 @@
                 "Jesus",
                 "Old Testament"
             ],
-            "decision-words": [],
+            "relates-to": [],
             "scripture-section" : "OT",
             "emotions": [
                 "confusion"
@@ -103,7 +111,7 @@
             "question-type" : {
                 "type": "clarification",
                 "subject": "Jesus",
-                "action": [ "in OT", "lived in OT", "OT speaks of" ]
+                "action": ["in OT", "lived in OT"]
             },
             "verse-in-the-question" : ""
         },
@@ -115,7 +123,7 @@
                 "Jesus'",
                 "miracles"
             ],
-            "decision-words": [],
+            "relates-to": [],
             "scripture-section" : "NT",
             "emotions": [
                 ""
@@ -141,7 +149,7 @@
             "signficant-words": [
                 "prayer"
             ],
-            "decision-words": [],
+            "relates-to": [],
             "scripture-section" : "Both",
             "emotions": [
                 "confusion"
@@ -159,40 +167,10 @@
             "question-type" : {
                 "type": "understanding",
                 "subject": "prayer",
-                "action": []
+                "action": ["is"]
             },
             "verse-in-the-question" : ""
-        },
-        {
-            "question-text": "Does the Bible say it is a sin to cry?",
-            "signficant-words": [
-                "Bible",
-                "sin",
-                "cry"
-            ],
-            "decision-words": [],
-            "scripture-section" : "Both",
-            "emotions": [
-                "confusion"
-            ],
-            "preconceptions": [
-                "legalistic",
-                "not meaningful"
-            ],
-            "people": [],
-            "places": [],
-            "actions": [
-                "say",
-                "cry"
-            ],
-            "believer" : false,
-            "question-type" : {
-                "type": "clarification",
-                "subject": "crying",
-                "action": [ "sinful", "wrong" ]
-            },
-            "verse-in-the-question" : ""
-        },
+        },    
         {
             "question-text": "Did Jonah really spend three days in a [whale or fish]?",
             "signficant-words": [
@@ -202,7 +180,7 @@
                 "whale",
                 "fish"
             ],
-            "decision-words": [],
+            "relates-to": [],
             "scripture-section" : "OT",
             "emotions": [
                 "disbelief"
@@ -221,7 +199,7 @@
             "question-type" : {
                 "type": "factual",
                 "subject": "Jonah",
-                "action": []
+                "action": ["in whale"]
             },
             "verse-in-the-question" : ""
         },
@@ -231,7 +209,7 @@
                 "forgive",
                 "betrayed"
             ],
-            "decision-words": ["I", "me"],
+            "relates-to": ["I", "me"],
             "scripture-section" : "Both",
             "emotions": [
                 "betrayed",
@@ -248,10 +226,10 @@
             "question-type" : {
                 "type": "moral",
                 "subject": "forgiveness",
-                "action": []
+                "action": ["of others"]
             },
             "verse-in-the-question" : ""
-        }
+        },
         {
             "question-text": "Why is there so much suffering in the world?",
             "signficant-words": [
@@ -259,7 +237,7 @@
                 "suffering",
                 "world"
             ],
-            "decision-words": [],
+            "relates-to": ["humanity", "mankind", "world"],
             "scripture-section" : "Both",
             "emotions": [
                 "pain",
@@ -277,7 +255,7 @@
             "question-type" : {
                 "type": "apologetical",
                 "subject": "suffering",
-                "action": ["bad"]
+                "action": ["world"]
             },
             "verse-in-the-question" : ""
         },
@@ -289,7 +267,7 @@
                 "sacrifices",
                 "Bible"
             ],
-            "decision-words": [],
+            "relates-to": [],
             "scripture-section" : "OT",
             "emotions": [
                 "curiosity"
@@ -306,7 +284,7 @@
             "question-type" : {
                 "type": "clarification",
                 "subject": "animal sacrifice",
-                "action": []
+                "action": ["reason"]
             },
             "verse-in-the-question" : ""
         },
@@ -316,7 +294,7 @@
                 "sin",
                 "casino"
             ],
-            "decision-words": [],
+            "relates-to": ["gamblers"],
             "scripture-section" : "Both",
             "emotions": [
                 "confusion"
@@ -345,7 +323,7 @@
                 "allow",
                 "poverty"
             ],
-            "decision-words": [],
+            "relates-to": ["unemployed", "homeless"],
             "scripture-section" : "Both",
             "emotions": [
                 "sadness",
@@ -364,7 +342,7 @@
             "question-type" : {
                 "type": "moral",
                 "subject": "poverty",
-                "action": []
+                "action": ["God's reasoning"]
             },
             "verse-in-the-question" : ""
         },
@@ -376,7 +354,7 @@
                 "scientifically",
                 "accurate"
             ],
-            "decision-words": [],
+            "relates-to": [],
             "scripture-section" : "Both",
             "emotions": [
                 "seeking"
@@ -394,7 +372,7 @@
             "question-type" : {
                 "type": "scientific",
                 "subject": "science",
-                "action": ["truth"]
+                "action": ["truth", "Bible"]
             },
             "verse-in-the-question" : ""
         },
@@ -405,7 +383,7 @@
                 "existence",
                 "God"
             ],
-            "decision-words": ["we"],
+            "relates-to": ["we"],
             "scripture-section" : "Both",
             "emotions": [
                 "questioning"
@@ -423,7 +401,7 @@
             "question-type" : {
                 "type": "apologetical",
                 "subject": "God's existence",
-                "action": []
+                "action": ["prove"]
             },
             "verse-in-the-question" : ""
         },
@@ -434,7 +412,7 @@
                 "men",
                 "women"
             ],
-            "decision-words": [],
+            "relates-to": ["husband", "wife", "females", "males"],
             "scripture-section" : "Both",
             "emotions": [
                 "indignant"
@@ -452,7 +430,7 @@
             "question-type" : {
                 "type": "clarification",
                 "subject": "gender",
-                "action": []
+                "action": ["comparison"]
             },
             "verse-in-the-question" : ""
         },
@@ -463,7 +441,7 @@
                 "repent",
                 "sin"
             ],
-            "decision-words": [],
+            "relates-to": [],
             "scripture-section" : "Both",
             "emotions": [
                 "scared",
@@ -481,7 +459,7 @@
             "question-type" : {
                 "type": "moral",
                 "subject": "repentence",
-                "action": [ ]
+                "action": ["meaning"]
             },
             "verse-in-the-question" : ""
         },
@@ -490,7 +468,7 @@
             "signficant-words": [
                 "demons"
             ],
-            "decision-words": [],
+            "relates-to": [],
             "scripture-section" : "Both",
             "emotions": [
                 "interest",
@@ -508,7 +486,7 @@
             "question-type" : {
                 "type": "clarification",
                 "subject": "demons",
-                "action": ["come from"]
+                "action": ["origin"]
             },
             "verse-in-the-question" : ""
         },
@@ -518,7 +496,7 @@
                 "Bible",
                 "dating"
             ],
-            "decision-words": [],
+            "relates-to": ["boyfriend", "girlfriend"],
             "scripture-section" : "Both",
             "emotions": [
                 "curiosity"
@@ -537,7 +515,7 @@
             "question-type" : {
                 "type": "understanding",
                 "subject": "dating",
-                "action": []
+                "action": ["Bible teaching"]
             },
             "verse-in-the-question" : ""
         },
@@ -548,7 +526,7 @@
                 "tongues",
                 "real"
             ],
-            "decision-words": [],
+            "relates-to": [],
             "scripture-section" : "Both",
             "emotions": [
                 "interest"
@@ -566,7 +544,7 @@
             "question-type" : {
                 "type": "factual",
                 "subject": "tongues",
-                "action": []
+                "action": ["real"]
             },
             "verse-in-the-question" : ""
         },
@@ -576,14 +554,17 @@
                 "happens",
                 "die"
             ],
-            "decision-words": ["I"],
+            "relates-to": ["I"],
             "scripture-section" : "Both",
             "emotions": [
                 "curiosity",
                 "fear",
                 "uncertainty"
             ],
-            "preconceptions": [],
+            "preconceptions": [
+                "bodily death",
+                "hell"
+            ],
             "people": [],
             "places": [],
             "actions": [
@@ -593,7 +574,7 @@
             "question-type" : {
                 "type": "clarification",
                 "subject": "afterlife",
-                "action": []
+                "action": ["details"]
             },
             "verse-in-the-question" : ""
         },
@@ -604,21 +585,20 @@
                 "Christian",
                 "God"
             ],
-            "decision-words": [],
+            "relates-to": [],
             "scripture-section" : "Both",
             "emotions": [
                 "curiosity"
             ],
-            "preconceptions": [
-            ],
+            "preconceptions": [],
             "people": ["God"],
             "places": [],
             "actions": [],
             "believer" : false,
             "question-type" : {
                 "type": "understanding",
-                "subject": "Uniqueness of God",
-                "action": []
+                "subject": "God",
+                "action": ["uniqueness"]
             },
             "verse-in-the-question" : ""
         }
