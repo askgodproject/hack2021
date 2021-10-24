@@ -36,6 +36,9 @@
             "action": string
         },
     ],
+    "people": [],
+    "places": [],
+    "actions": [],
     "lesson" : {
         "situation": "sadness",
         "godly-response": [
