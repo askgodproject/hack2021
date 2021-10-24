@@ -1,0 +1,627 @@
+{
+    "context":[
+        {
+            "question-text": "Does the Bible say it is a sin to cry?",
+            "signficant-words": [
+                "Bible",
+                "sin",
+                "cry"
+            ],
+            "decision-words": [],
+            "scripture-section" : "Both",
+            "emotions": [
+                "confusion"
+            ],
+            "preconceptions": [
+                "legalistic",
+                "not meaningful"
+            ],
+            "people": [],
+            "places": [],
+            "actions": [
+                "say",
+                "cry"
+            ],
+            "believer" : false,
+            "question-type" : {
+                "type": "clarification",
+                "subject": "crying",
+                "action": [ "sinful", "wrong" ]
+            },
+            "verse-in-the-question" : ""
+        },
+        {
+            "question-text": "Is Jesus really the only way to heaven?",
+            "signficant-words": [
+                "Jesus",
+                "only",
+                "way",
+                "heaven"
+            ],
+            "decision-words": [],
+            "scripture-section" : "NT",
+            "emotions": [
+                "confusion"
+            ],
+            "preconceptions": [
+                ""
+            ],
+            "people": ["Jesus"],
+            "places": ["heaven"],
+            "actions": [],
+            "believer" : false,
+            "question-type" : {
+                "type": "doctrine",
+                "subject": "salvation",
+                "action": ""
+            },
+            "verse-in-the-question" : ""
+        },
+        {
+            "question-text": "Did Jesus talk about homosexuality?",
+            "signficant-words": [
+                "Jesus",
+                "homosexuality"
+            ],
+            "decision-words": [],
+            "scripture-section" : "NT",
+            "emotions": [
+                "confusion"
+            ],
+            "preconceptions": [
+                "legalistic"
+            ],
+            "people": ["Jesus"],
+            "places": [],
+            "actions": [
+                "talk"
+            ],
+            "believer" : false,
+            "question-type" : {
+                "type": "clarification",
+                "subject": "homosexuality",
+                "action": [ "sinful", "wrong" ]
+            },
+            "verse-in-the-question" : ""
+        },
+        {
+            "question-text": "Is Jesus in the Old Testament?",
+            "signficant-words": [
+                "Jesus",
+                "Old",
+                "Testament"
+            ],
+            "decision-words": [],
+            "scripture-section" : "OT",
+            "emotions": [
+                "confusion"
+            ],
+            "preconceptions": [],
+            "people": ["Jesus"],
+            "places": [],
+            "actions": [],
+            "believer" : false,
+            "question-type" : {
+                "type": "clarification",
+                "subject": "Jesus",
+                "action": []
+            },
+            "verse-in-the-question" : ""
+        },
+        {
+            "question-text": "Is there historical evidence of Jesus' miracles?",
+            "signficant-words": [
+                "historical",
+                "evidence",
+                "Jesus'",
+                "miracles"
+            ],
+            "decision-words": [],
+            "scripture-section" : "NT",
+            "emotions": [
+                ""
+            ],
+            "preconceptions": [
+                "not true"
+            ],
+            "people": ["Jesus"],
+            "places": [],
+            "actions": [
+                "miracles"
+            ],
+            "believer" : false,
+            "question-type" : {
+                "type": "apologetical",
+                "subject": "miracles",
+                "action": [ "real", "true" ]
+            },
+            "verse-in-the-question" : ""
+        },
+        {
+            "question-text": "What is prayer?",
+            "signficant-words": [
+                "prayer"
+            ],
+            "decision-words": [],
+            "scripture-section" : "Both",
+            "emotions": [
+                "confusion"
+            ],
+            "preconceptions": [
+                "vague",
+                "difficult"
+            ],
+            "people": [],
+            "places": [],
+            "actions": [
+                "pray"
+            ],
+            "believer" : false,
+            "question-type" : {
+                "type": "understanding",
+                "subject": "prayer",
+                "action": []
+            },
+            "verse-in-the-question" : ""
+        },
+        {
+            "question-text": "Does the Bible say it is a sin to cry?",
+            "signficant-words": [
+                "Bible",
+                "sin",
+                "cry"
+            ],
+            "decision-words": [],
+            "scripture-section" : "Both",
+            "emotions": [
+                "confusion"
+            ],
+            "preconceptions": [
+                "legalistic",
+                "not meaningful"
+            ],
+            "people": [],
+            "places": [],
+            "actions": [
+                "say",
+                "cry"
+            ],
+            "believer" : false,
+            "question-type" : {
+                "type": "clarification",
+                "subject": "crying",
+                "action": [ "sinful", "wrong" ]
+            },
+            "verse-in-the-question" : ""
+        },
+        {
+            "question-text": "Did Jonah really spend three days in a [whale or fish]?",
+            "signficant-words": [
+                "Jonah",
+                "three",
+                "days",
+                "whale",
+                "fish"
+            ],
+            "decision-words": [],
+            "scripture-section" : "OT",
+            "emotions": [
+                "disbelief"
+            ],
+            "preconceptions": [
+                "impossible",
+                "fantastical"
+            ],
+            "people": ["Jonah"],
+            "places": [
+                "fish", 
+                "whale"
+            ],
+            "actions": ["spend"],
+            "believer" : true,
+            "question-type" : {
+                "type": "factual",
+                "subject": "Jonah",
+                "action": []
+            },
+            "verse-in-the-question" : ""
+        },
+        {
+            "question-text": "How do I forgive someone who has betrayed me?",
+            "signficant-words": [
+                "forgive",
+                "betrayed"
+            ],
+            "decision-words": ["I", "me"],
+            "scripture-section" : "Both",
+            "emotions": [
+                "betrayed",
+                "hurt"
+            ],
+            "preconceptions": [],
+            "people": [],
+            "places": [],
+            "actions": [
+                "forgive",
+                "betrayed"
+            ],
+            "believer" : false,
+            "question-type" : {
+                "type": "moral",
+                "subject": "forgiveness",
+                "action": []
+            },
+            "verse-in-the-question" : ""
+        }
+        {
+            "question-text": "Why is there so much suffering in the world?",
+            "signficant-words": [
+                "much",
+                "suffering",
+                "world"
+            ],
+            "decision-words": [],
+            "scripture-section" : "Both",
+            "emotions": [
+                "pain",
+                "anger"
+            ],
+            "preconceptions": [
+                "unfair"
+            ],
+            "people": [],
+            "places": ["world"],
+            "actions": [
+                "suffer"
+            ],
+            "believer" : false,
+            "question-type" : {
+                "type": "apologetical",
+                "subject": "suffering",
+                "action": ["bad"]
+            },
+            "verse-in-the-question" : ""
+        },
+        {
+            "question-text": "Why did God have people do animal sacrifices in the Bible?",
+            "signficant-words": [
+                "God",
+                "animal",
+                "sacrifices",
+                "Bible"
+            ],
+            "decision-words": [],
+            "scripture-section" : "OT",
+            "emotions": [
+                "curiosity"
+            ],
+            "preconceptions": [
+                "legalistic"
+            ],
+            "people": ["God"],
+            "places": [],
+            "actions": [
+                "sacrifices"
+            ],
+            "believer" : false,
+            "question-type" : {
+                "type": "clarification",
+                "subject": "animal sacrifice",
+                "action": []
+            },
+            "verse-in-the-question" : ""
+        },
+        {
+            "question-text": "Is it a sin to go to a casino?",
+            "signficant-words": [
+                "sin",
+                "casino"
+            ],
+            "decision-words": [],
+            "scripture-section" : "Both",
+            "emotions": [
+                "confusion"
+            ],
+            "preconceptions": [
+                "legalistic",
+                "not meaningful"
+            ],
+            "people": [],
+            "places": ["casino"],
+            "actions": [
+                "go"
+            ],
+            "believer" : false,
+            "question-type" : {
+                "type": "clarification",
+                "subject": "gambling",
+                "action": [ "sinful", "wrong" ]
+            },
+            "verse-in-the-question" : ""
+        },
+        {
+            "question-text": "Why does God allow poverty to exist?",
+            "signficant-words": [
+                "God",
+                "allow",
+                "poverty"
+            ],
+            "decision-words": [],
+            "scripture-section" : "Both",
+            "emotions": [
+                "sadness",
+                "disappointment"
+            ],
+            "preconceptions": [
+                "unfair"
+            ],
+            "people": ["God"],
+            "places": [],
+            "actions": [
+                "allow",
+                "exist"
+            ],
+            "believer" : false,
+            "question-type" : {
+                "type": "moral",
+                "subject": "poverty",
+                "action": []
+            },
+            "verse-in-the-question" : ""
+        },
+        {
+            "question-text": "Is everything in the Bible scientifically accurate?",
+            "signficant-words": [
+                "everything",
+                "Bible",
+                "scientifically",
+                "accurate"
+            ],
+            "decision-words": [],
+            "scripture-section" : "Both",
+            "emotions": [
+                "seeking"
+            ],
+            "preconceptions": [
+                "stories",
+                "unscientific"
+            ],
+            "people": [],
+            "places": [],
+            "actions": [
+                "is"
+            ],
+            "believer" : false,
+            "question-type" : {
+                "type": "scientific",
+                "subject": "science",
+                "action": ["truth"]
+            },
+            "verse-in-the-question" : ""
+        },
+        {
+            "question-text": "Can we prove the existence of God?",
+            "signficant-words": [
+                "prove",
+                "existence",
+                "God"
+            ],
+            "decision-words": ["we"],
+            "scripture-section" : "Both",
+            "emotions": [
+                "questioning"
+            ],
+            "preconceptions": [
+                "impossible",
+                "difficult"
+            ],
+            "people": ["God"],
+            "places": [],
+            "actions": [
+                "prove"
+            ],
+            "believer" : false,
+            "question-type" : {
+                "type": "apologetical",
+                "subject": "God's existence",
+                "action": []
+            },
+            "verse-in-the-question" : ""
+        },
+        {
+            "question-text": "Does the Bible say men are better than women?",
+            "signficant-words": [
+                "Bible",
+                "men",
+                "women"
+            ],
+            "decision-words": [],
+            "scripture-section" : "Both",
+            "emotions": [
+                "indignant"
+            ],
+            "preconceptions": [
+                "sexist",
+                "unfair"
+            ],
+            "people": [],
+            "places": [],
+            "actions": [
+                "say"
+            ],
+            "believer" : false,
+            "question-type" : {
+                "type": "clarification",
+                "subject": "gender",
+                "action": []
+            },
+            "verse-in-the-question" : ""
+        },
+        {
+            "question-text": "What does it mean to repent from sin?",
+            "signficant-words": [
+                "mean",
+                "repent",
+                "sin"
+            ],
+            "decision-words": [],
+            "scripture-section" : "Both",
+            "emotions": [
+                "scared",
+                "sorry"
+            ],
+            "preconceptions": [
+                "sacrificial"
+            ],
+            "people": [],
+            "places": [],
+            "actions": [
+                "repent"
+            ],
+            "believer" : false,
+            "question-type" : {
+                "type": "moral",
+                "subject": "repentence",
+                "action": [ ]
+            },
+            "verse-in-the-question" : ""
+        },
+        {
+            "question-text": "Where do demons come from?",
+            "signficant-words": [
+                "demons"
+            ],
+            "decision-words": [],
+            "scripture-section" : "Both",
+            "emotions": [
+                "interest",
+                "fear"
+            ],
+            "preconceptions": [
+                "fantastical"
+            ],
+            "people": ["demons"],
+            "places": [],
+            "actions": [
+                "come"
+            ],
+            "believer" : false,
+            "question-type" : {
+                "type": "clarification",
+                "subject": "demons",
+                "action": ["come from"]
+            },
+            "verse-in-the-question" : ""
+        },
+        {
+            "question-text": "What does the Bible say about dating?",
+            "signficant-words": [
+                "Bible",
+                "dating"
+            ],
+            "decision-words": [],
+            "scripture-section" : "Both",
+            "emotions": [
+                "curiosity"
+            ],
+            "preconceptions": [
+                "strict",
+                "prude"
+            ],
+            "people": [],
+            "places": [],
+            "actions": [
+                "say",
+                "dating"
+            ],
+            "believer" : false,
+            "question-type" : {
+                "type": "understanding",
+                "subject": "dating",
+                "action": []
+            },
+            "verse-in-the-question" : ""
+        },
+        {
+            "question-text": "Is speaking in tongues real?",
+            "signficant-words": [
+                "speaking",
+                "tongues",
+                "real"
+            ],
+            "decision-words": [],
+            "scripture-section" : "Both",
+            "emotions": [
+                "interest"
+            ],
+            "preconceptions": [
+                "disbelief",
+                "fantastical"
+            ],
+            "people": [],
+            "places": [],
+            "actions": [
+                "speaking"
+            ],
+            "believer" : false,
+            "question-type" : {
+                "type": "factual",
+                "subject": "tongues",
+                "action": []
+            },
+            "verse-in-the-question" : ""
+        },
+        {
+            "question-text": "What happens when I die?",
+            "signficant-words": [
+                "happens",
+                "die"
+            ],
+            "decision-words": ["I"],
+            "scripture-section" : "Both",
+            "emotions": [
+                "curiosity",
+                "fear",
+                "uncertainty"
+            ],
+            "preconceptions": [],
+            "people": [],
+            "places": [],
+            "actions": [
+                "die"
+            ],
+            "believer" : false,
+            "question-type" : {
+                "type": "clarification",
+                "subject": "afterlife",
+                "action": []
+            },
+            "verse-in-the-question" : ""
+        },
+        {
+            "question-text": "What is special about the Christian God?",
+            "signficant-words": [
+                "special",
+                "Christian",
+                "God"
+            ],
+            "decision-words": [],
+            "scripture-section" : "Both",
+            "emotions": [
+                "curiosity"
+            ],
+            "preconceptions": [
+            ],
+            "people": ["God"],
+            "places": [],
+            "actions": [],
+            "believer" : false,
+            "question-type" : {
+                "type": "understanding",
+                "subject": "Uniqueness of God",
+                "action": []
+            },
+            "verse-in-the-question" : ""
+        }
+    ]
+}
