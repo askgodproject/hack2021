@@ -9,7 +9,9 @@
             "type": "python",
             "request": "launch",
             "program": "${file}",
-            "console": "integratedTerminal"
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": ["Mat.6.30-Mat.6.33", "ENG", "ESV", "output.txt"]
         }
     ]
 }

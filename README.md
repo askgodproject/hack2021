@@ -12,12 +12,16 @@ An experiment on matching a context describing a question with contexts describi
 2. Install Git according to the instructions here: https://github.com/git-guides/install-git.
 
 3. Log into https://www.github.com with your account and follow the instructions here to create a personal access token: https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token. After this, you do not need to be logged into your account, but it's fine to be as well. Just make sure to save your token somewhere secure that you can access again. A credential manager is a good choice.
-
+https://git-scm.com/download/win
 4. Running the git commands is usually done through the Terminal on Mac or Command Prompt on Windows, or using a Git client (like https://www.sourcetreeapp.com/). It is recommended on Windows to use the `Git Bash` shell (app included with the download), since this makes the commands between Mac and Windows the same. Open the applicable app now.
 
 5. Create a folder where you want to put the code, we'll call it `askGod`. Use command `mkdir askGod`.
 
 6. Clone the `hack2021` repo to get all the code: `git clone https://github.com/askgodproject/hack2021.git askGod`. This will prompt you for your Github username and then the personal access token you created above. Enter those and wait for the download to finish.
+
+## BibleReader
+
+A simple verse extraction tool is provided for obtaining the Scripture text in many languages and translations. Please see the `tools\biblereader.py` for a description of how to use the tool.
 
 ## Running
 

@@ -1,5 +1,4 @@
 from DBPManager import DBPManager
-import Utils
 from collections import OrderedDict
 
 import scriptures
@@ -9,6 +8,33 @@ def passageKey(passage):
 
 class Passage:
     def __init__(self, reference, score=0):
+        """
+        Creates a `Passage` from the given reference. An optional score can also be provided for use with ranking algorithms.
+        If there is an error creating the passage, due to an invalid reference, the Passage will be cleared and not represent anything,
+        and an exception will be raised.
+        
+        A passage can represent either a single verse, or be a range from one verse to another, across chapters, but must all be within the same book.
+
+        Parameters
+        ----------
+        `reference` : `tuple | str`
+            The reference of this passage. 
+            - If it is a tuple, then it should use the following format: 
+                - (Book (B; starting book SB = ending book EB), starting chapter in that book (SC), ending chapter in that book (EC), 
+                starting verse in the beginning chapter (SV), ending verse in the ending chapter (EV))
+            - If the reference is a string, it should use the format present in OSIS, which is essentially:
+                - <SB>.<SC>.<SV>[-<EB>.<EC>.<EV>]
+
+        Examples
+        --------
+        - `Passage("John.3.16-John.3.18")` and `Passage(("John", 3, 3, 16, 18))` both create a `Passage` representing John 3:16-18
+        - `Passage("John.3.16")` and `Passage(("John", 3, 3, 16, 16))` both create a `Passage` representing John 3:16
+        - `Passage("John.3.16-John.4.20)` and `Passage("John", 3, 4, 16, 20)` both create a `Passage` representing John 3:16-4:20
+
+        Raises
+        ------
+        Exception if reference is invalid
+        """
         self.startRef = None
         self.endRef = None
         self.score = score
@@ -22,6 +48,7 @@ class Passage:
                 self.reference = scriptures.reference_to_string(self.startBook, self.startChapter, self.startVerse, self.endChapter, self.endVerse)
             elif type(reference) == str:
                 # This is assumed to be in OSIS reference format
+                # Ex. John.3.16-John.3.18 is OSIS for John 3:16-18
                 self.reference = reference
                 refParts = reference.split('-')
                 self.startRef = refParts[0]
@@ -45,6 +72,8 @@ class Passage:
             raise e
 
     def __eq__(self, other):
+        if not isinstance(other, Passage):
+            return False
         if self.startRef == other.startRef and self.endRef == other.endRef and self.score == other.score and self.reference == other.reference:
             return True
         return False
@@ -56,6 +85,9 @@ class Passage:
         return hash(str(self))
 
     def includes(self, other):
+        if not isinstance(other, Passage):
+            return False
+
         # Base case, if they are the same passage, then by definition, it is included
         if self == other:
             return True
@@ -90,11 +122,24 @@ class Passage:
                     ends_after = True
 
         # If this passage both starts before and ends after the given one, then it includes it
-        return starts_before and ends_after  
+        return starts_before and ends_after
 
-    def text(self):
-        dbp = DBPManager("ENG","ESV")
-        (text, _) = dbp.passage(self.startBook, self.startChapter, self.endChapter, self.startVerse, self.endVerse)
+    def text(self, dbp_manager = DBPManager("ENG", "ESV")):
+        """
+        Retrieves the text this `Passage` represents, using the given Digitial Bible Platform Manager (`DBPManager`).
+        This manager defines the language and translation to use. The `Passage` will use this as the means by which to get the Scripture text.
+        If no `DBPManager` is provided, a default one will be created using the English Standard Version in US-English.
+
+        Parameters
+        ----------
+        [`dbp_manager` : `DBPManager`]
+            The manager from which Scripture text can be retrieved in a given language and translation. It is optional.
+
+        Raises
+        ------
+        Exception if reference is invalid or there was some other error retrieving the text
+        """
+        (text, _) = dbp_manager.passage(self.startBook, self.startChapter, self.endChapter, self.startVerse, self.endVerse)
         return text
 
     def ref_osis(self):
@@ -109,7 +154,12 @@ class Passage:
         return osis
 
     def data(self):
-        return {"reference":self.reference, "start":self.startRef, "end":self.endRef, "score":self.score}
+        return {
+            "reference":self.reference, 
+            "start":self.startRef, 
+            "end":self.endRef, 
+            "score":self.score
+        }
 
     def ref_data(self):
         return {
@@ -121,7 +171,7 @@ class Passage:
             "book-end" : self.endBook,
 			"chapter-end" : self.endChapter,
 			"verse-end" : self.endVerse
-            }
+        }
 
     def book_order(self, book):
         index = 0
