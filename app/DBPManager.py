@@ -35,13 +35,13 @@ class DBPManager:
             if self.verify_language(lang):
                 self.lang = lang
         except APIException as e:
-            raise ValidityException("Could not find language id " + lang + " in supported list. Please check language ISO code. " + e)
+            raise ValidityException("Could not find language id " + lang + " in supported list. Please check language ISO code. " + str(e))
 
         try:
             if self.verify_version(version):
                 self.version = version
         except APIException as e:
-            raise ValidityException("Could not find translation/vbersion " + version + " for language " + self.lang + ". " + e)
+            raise ValidityException("Could not find translation/vbersion " + version + " for language " + self.lang + ". " + str(e))
 
     def std_params(self):
         """
@@ -99,9 +99,9 @@ class DBPManager:
                     # If we get here, the language id was not found yet, so go to the next page
                     page += 1
                 except Exception as e:
-                    raise APIException("Error: Response to " + response.url + " has unexpected format: " + json.dumps(response.json()) + " | " + e)
+                    raise APIException("Error: Response to " + response.url + " has unexpected format: " + json.dumps(response.json()) + " | " + str(e))
             else:
-                raise APIException("Error: " + response.status_code + " when retrieving languages with " + response.url)
+                raise APIException("Error: " + str(response.status_code) + " when retrieving languages with " + response.url)
         # If we end up here then we never found the ISO code
         return False
 
@@ -152,9 +152,9 @@ class DBPManager:
                     # If we get here, the filesetID was not found yet, so go to the next page
                     page += 1
                 except Exception as e:
-                    raise APIException("Error: Response to " + response.url + " has unexpected format: " + json.dumps(response.json()) + " | " + e)
+                    raise APIException("Error: Response to " + response.url + " has unexpected format: " + json.dumps(response.json()) + " | " + str(e))
             else:
-                raise APIException("Error: " + response.status_code + " when retrieving versions with " + response.url)
+                raise APIException("Error: " + str(response.status_code) + " when retrieving versions with " + response.url)
         # If we end up here then we never found the filesetID
         return False
 
@@ -192,9 +192,9 @@ class DBPManager:
             try:
                 return response.json()["data"][0]
             except Exception as e:
-                raise APIException("Error: Response to " + response.url + " has unexpected format: " + json.dumps(response.json()) + " | " + e)
+                raise APIException("Error: Response to " + response.url + " has unexpected format: " + json.dumps(response.json()) + " | " + str(e))
         else:
-            raise APIException("Error: " + response.status_code + " when retrieving book info with " + response.url)
+            raise APIException("Error: " + str(response.status_code) + " when retrieving book info with " + response.url)
 
     def passage(self, book, chapter_start = 1, chapter_finish = None, verse_start = None, verse_finish = None):
         """
@@ -293,9 +293,9 @@ class DBPManager:
                             chapter_text += verse_text + " "
                             chapter_list.append(verse_text)
                     except Exception as e:
-                        raise APIException("Error: Response to " + response.url + " has unexpected format: " + json.dumps(response.json()) + " | " + e)
+                        raise APIException("Error: Response to " + response.url + " has unexpected format: " + json.dumps(response.json()) + " | " + str(e))
                 else:
-                    raise APIException("Error: " + response.status_code + " when retrieving verses with " + response.url)
+                    raise APIException("Error: " + str(response.status_code) + " when retrieving verses with " + response.url)
                 
                 # Add the chapter text to the whole
                 text += chapter_text
